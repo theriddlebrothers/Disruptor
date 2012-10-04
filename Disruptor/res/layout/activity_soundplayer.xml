@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/threshold"
+        android:layout_margin="20dp"
+        android:orientation="vertical" >
+        
+	    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignBottom="@+id/threshold"
+	        android:text="Volume Threshold" />
+	    
+	    <LinearLayout
+	        android:id="@+id/thresholdWrapper"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@+id/threshold"
+	        android:orientation="horizontal" >
+	        
+	    <SeekBar
+	        android:id="@+id/threshold"
+	        android:layout_width="212dp"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:layout_marginTop="10dp"
+	        android:layout_weight="0.56"
+	        android:max="100" />
+	    
+	    <TextView
+	        android:id="@+id/thresholdValue"
+	        android:layout_width="wrap_content"
+	        android:layout_height="match_parent"
+	        android:layout_marginRight="0dp"
+	        android:layout_marginTop="12dp"
+	        android:gravity="right"
+	        android:text="100" />
+	    
+	    </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/playButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_margin="20dp"
+        android:background="@color/buttons"
+        android:text="Continuous Play" />
+
+
+</RelativeLayout>

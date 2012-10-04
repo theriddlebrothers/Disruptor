@@ -90,7 +90,7 @@
       <file leaf-file-name="strings.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Disruptor/res/values/strings.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="54" selection-start="230" selection-end="230" vertical-scroll-proportion="0.26234567">
+            <state line="8" column="12" selection-start="292" selection-end="292" vertical-scroll-proportion="0.41975307">
               <folding />
             </state>
           </provider>
@@ -100,24 +100,6 @@
         <entry file="file://$PROJECT_DIR$/Disruptor/build.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state line="27" column="35" selection-start="1185" selection-end="1185" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="activity_main.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Disruptor/res/layout/activity_main.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="25" selection-start="844" selection-end="844" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="activity_playback.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Disruptor/res/layout/activity_playback.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="0" selection-start="182" selection-end="182" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -280,6 +262,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="values" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Disruptor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Disruptor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layout" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -648,18 +648,6 @@
         <state line="51" column="46" selection-start="1791" selection-end="1835" vertical-scroll-proportion="0.6880734" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Disruptor/res/layout/activity_main.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="25" selection-start="844" selection-end="844" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Disruptor/res/layout/activity_playback.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="182" selection-end="182" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Disruptor/src/com/theriddlebrothers/disruptor/SoundPlayerActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="94" column="24" selection-start="3281" selection-end="3281" vertical-scroll-proportion="0.0">
@@ -690,7 +678,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Disruptor/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="54" selection-start="230" selection-end="230" vertical-scroll-proportion="0.26234567">
+        <state line="8" column="12" selection-start="292" selection-end="292" vertical-scroll-proportion="0.41975307">
           <folding />
         </state>
       </provider>
