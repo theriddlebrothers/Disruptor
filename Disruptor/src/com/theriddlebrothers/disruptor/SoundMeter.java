@@ -26,13 +26,15 @@ public class SoundMeter {
         private double mEMA = 0.0;
 
         public void start() {
-                if (mRecorder == null) {
+
+            if (mRecorder == null) {
                     
                     mRecorder = new MediaRecorder();
                     mRecorder.setAudioSource(MediaRecorder.AudioSource.MIC);
                     mRecorder.setOutputFormat(MediaRecorder.OutputFormat.THREE_GPP);
                     mRecorder.setAudioEncoder(MediaRecorder.AudioEncoder.AMR_NB);
-                    mRecorder.setOutputFile("/dev/null"); 
+                    mRecorder.setOutputFile("/dev/null");
+
                     try {
                         mRecorder.prepare();
 					} catch (Exception e) {
