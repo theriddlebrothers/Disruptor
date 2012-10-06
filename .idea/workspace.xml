@@ -71,7 +71,79 @@
     <favorites_list name="Disruptor" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="activity_main.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Disruptor/res/menu/activity_main.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="4" selection-start="313" selection-end="313" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SoundPlayerActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Disruptor/src/com/theriddlebrothers/disruptor/SoundPlayerActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="52" column="34" selection-start="1977" selection-end="1977" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#1977#2524#0" expanded="true" />
+                <element signature="e#2513#2514#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DefaultActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Disruptor/src/com/theriddlebrothers/disruptor/DefaultActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="58" column="0" selection-start="1845" selection-end="1845" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#1594#1841#0" expanded="true" />
+                <element signature="e#1822#1823#0" expanded="true" />
+                <element signature="e#1967#2230#0" expanded="true" />
+                <element signature="e#2219#2220#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="activity_configuration.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Disruptor/res/layout/activity_configuration.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="50" selection-start="927" selection-end="1256" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="strings.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Disruptor/res/values/strings.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="20" selection-start="747" selection-end="747" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dialog_about.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Disruptor/res/layout/dialog_about.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="0" selection-start="826" selection-end="826" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Disruptor/AndroidManifest.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="37" selection-start="499" selection-end="499" vertical-scroll-proportion="0.3323263">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -81,30 +153,30 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/Disruptor/res/drawable/buttons.xml" />
-        <option value="$PROJECT_DIR$/Disruptor/res/values/colors.xml" />
-        <option value="$PROJECT_DIR$/Disruptor/src/com/theriddlebrothers/disruptor/ConfigureActivity.java" />
-        <option value="$PROJECT_DIR$/Disruptor/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/Disruptor/res/values/themes.xml" />
-        <option value="$PROJECT_DIR$/Disruptor/res/values/styles.xml" />
-        <option value="$PROJECT_DIR$/Disruptor/res/layout/activity_soundplayer.xml" />
-        <option value="$PROJECT_DIR$/Disruptor/res/drawable/button_disabled.xml" />
-        <option value="$PROJECT_DIR$/Disruptor/res/drawable/button_enabled.xml" />
-        <option value="$PROJECT_DIR$/Disruptor/res/drawable/button_pressed.xml" />
         <option value="$PROJECT_DIR$/Disruptor/src/com/theriddlebrothers/disruptor/SoundPlayerActivity.java" />
-        <option value="$PROJECT_DIR$/Disruptor/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/Disruptor/res/values/theme.xml" />
         <option value="$PROJECT_DIR$/Disruptor/res/layout/activity_configuration.xml" />
         <option value="$PROJECT_DIR$/Disruptor/res/drawable/button_focused.xml" />
         <option value="$PROJECT_DIR$/Disruptor/res/drawable/button.xml" />
+        <option value="$PROJECT_DIR$/Disruptor/res/values/styles.xml" />
+        <option value="$PROJECT_DIR$/Disruptor/res/drawable/splash.xml" />
+        <option value="$PROJECT_DIR$/Disruptor/res/drawable/splash_background.xml" />
+        <option value="$PROJECT_DIR$/Disruptor/res/values/theme.xml" />
+        <option value="$PROJECT_DIR$/Disruptor/res/layout/activity_splash.xml" />
+        <option value="$PROJECT_DIR$/Disruptor/src/com/theriddlebrothers/disruptor/SplashActivity.java" />
+        <option value="$PROJECT_DIR$/Disruptor/res/menu/activity_main.xml" />
+        <option value="$PROJECT_DIR$/Disruptor/src/com/theriddlebrothers/disruptor/ConfigureActivity.java" />
+        <option value="$PROJECT_DIR$/Disruptor/src/com/theriddlebrothers/disruptor/DefaultActivity.java" />
+        <option value="$PROJECT_DIR$/Disruptor/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/Disruptor/res/layout/dialog_about.xml" />
+        <option value="$PROJECT_DIR$/Disruptor/AndroidManifest.xml" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="x" value="-1688" />
+    <option name="y" value="-290" />
+    <option name="width" value="1696" />
+    <option name="height" value="1066" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -170,7 +242,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="disruptor" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -196,13 +272,20 @@
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
+    <property name="AndroidIncludeSystemProguardFile" value="true" />
     <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="AndroidProguardConfigPath" value="D:\Projects\android\Disruptor\Disruptor\proguard-project.txt" />
+    <property name="ExportedApkPath" value="D:\Projects\android\Disruptor\Disruptor\Disruptor.apk" />
     <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="options.lastSelected" value="preferences.externalResources" />
+    <property name="ExportedModule" value="Disruptor" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="AndroidRunProguardForReleaseBuild" value="true" />
+    <property name="KeystoreLocation" value="d:\Android\Keystore\joshua_riddle" />
+    <property name="KeyAlias" value="joshuariddle" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
@@ -213,8 +296,9 @@
       <recent name="com.theriddlebrothers.disruptor" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Projects\android\Disruptor\Disruptor\res\values" />
       <recent name="D:\Projects\android\Disruptor\Disruptor\res\layout" />
+      <recent name="D:\Projects\android\Disruptor\Disruptor\res\drawable" />
+      <recent name="D:\Projects\android\Disruptor\Disruptor\res\values" />
     </key>
   </component>
   <component name="RunManager" selected="Android Application.Disruptor">
@@ -432,29 +516,29 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <frame x="-1688" y="-290" width="1696" height="1066" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3274065" sideWeight="0.76048565" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37157536" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23951435" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905984" sideWeight="0.49812934" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289183" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.49117" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2733485" sideWeight="0.62842464" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22072348" sideWeight="0.76048565" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2724359" sideWeight="0.49812934" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32863274" sideWeight="0.76048565" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289183" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289183" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Android Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -519,71 +603,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/AppData/Local/Android/android-sdk/platforms/android-15/android.jar!/android/content/Intent.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="239" column="35" selection-start="20337" selection-end="20338" vertical-scroll-proportion="0.4899846" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Disruptor/src/com/theriddlebrothers/disruptor/SoundMeter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="65" selection-start="1541" selection-end="1541" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Disruptor/res/values/colors.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="36" selection-start="135" selection-end="135" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Disruptor/src/com/theriddlebrothers/disruptor/ConfigureActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="73" column="28" selection-start="2278" selection-end="2278" vertical-scroll-proportion="0.3836858" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Disruptor/res/values/styles.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="46" selection-start="201" selection-end="201" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Disruptor/res/layout/activity_soundplayer.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="30" selection-start="1102" selection-end="1102" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Disruptor/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="4" selection-start="687" selection-end="687" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Disruptor/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="38" selection-start="997" selection-end="997" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Disruptor/res/values/theme.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="65" selection-start="68" selection-end="68" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Disruptor/res/layout/activity_configuration.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="54" selection-start="875" selection-end="875" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Disruptor/res/drawable/button_pressed.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="34" selection-start="0" selection-end="439" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Disruptor/res/drawable/button_enabled.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="33" selection-start="303" selection-end="303" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Disruptor/src/com/theriddlebrothers/disruptor/SoundPlayerActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="34" selection-start="2070" selection-end="2070" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Disruptor/res/drawable/button.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="31" selection-start="416" selection-end="416" vertical-scroll-proportion="0.6949686" />
@@ -597,6 +616,109 @@
     <entry file="file://$PROJECT_DIR$/Disruptor/res/drawable/button_focused.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="8" selection-start="439" selection-end="439" vertical-scroll-proportion="0.7" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Disruptor/res/values/theme.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="12" selection-start="143" selection-end="143" vertical-scroll-proportion="0.12208258">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Disruptor/res/drawable/button_pressed.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="33" selection-start="160" selection-end="166" vertical-scroll-proportion="0.15">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Disruptor/res/layout/activity_splash.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="84" selection-start="881" selection-end="881" vertical-scroll-proportion="0.53125">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Disruptor/src/com/theriddlebrothers/disruptor/ConfigureActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="46" selection-start="429" selection-end="429" vertical-scroll-proportion="0.10625">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Disruptor/res/layout/activity_configuration.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="50" selection-start="927" selection-end="1256" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Disruptor/src/com/theriddlebrothers/disruptor/SoundPlayerActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="34" selection-start="1977" selection-end="1977" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#1977#2524#0" expanded="true" />
+            <element signature="e#2513#2514#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Disruptor/src/com/theriddlebrothers/disruptor/SplashActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="64" selection-start="366" selection-end="366" vertical-scroll-proportion="0.34375">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#502#924#0" expanded="true" />
+            <element signature="e#912#913#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Disruptor/src/com/theriddlebrothers/disruptor/DefaultActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="0" selection-start="1845" selection-end="1845" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#1594#1841#0" expanded="true" />
+            <element signature="e#1822#1823#0" expanded="true" />
+            <element signature="e#1967#2230#0" expanded="true" />
+            <element signature="e#2219#2220#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Disruptor/res/values/styles.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="46" selection-start="195" selection-end="201" vertical-scroll-proportion="0.10271903">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Disruptor/res/menu/activity_main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="4" selection-start="313" selection-end="313" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Disruptor/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="20" selection-start="747" selection-end="747" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Disruptor/res/layout/dialog_about.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="0" selection-start="826" selection-end="826" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Disruptor/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="37" selection-start="499" selection-end="499" vertical-scroll-proportion="0.3323263">
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>

@@ -1,17 +1,29 @@
 <resources>
 
+    <!-- Titles -->
     <string name="app_name">Disruptor</string>
-    <string name="menu_settings">Settings</string>
-    <string name="title_activity_main">Disruptor: Sound</string>
     <string name="title_activity_soundplayer">Disruptor</string>
     <string name="title_activity_configure">Configuration</string>
-    <string name="exit">Exit</string>
 
+    <!-- Menu Items -->
+    <string name="exit">Exit</string>
+    <string name="about">About Disruptor</string>
+    <string name="okay">Okay</string>
+
+    <!-- App Text -->
     <string name="sensitivity_label">Sensitivity</string>
     <string name="continuous_play">Hold to Play Manually</string>
     <string name="instructions">
         Disruptor will play for a few seconds to determine the volume of the room while playing.
         Do this in a quiet environment before anyone is blabbling away.
     </string>
+
+    <!-- Credits -->
+    <string name="credits">
+        "Created by\nJoshua Riddle"
+    </string>
+    <string name="copy">"Copyright \u00a9 2012 Joshua Riddle"</string>
+    <string name="url">http://www.joshuariddle.com</string>
+
 
 </resources>
