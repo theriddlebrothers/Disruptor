@@ -13,7 +13,7 @@
 	        android:layout_width="wrap_content"
 	        android:layout_height="wrap_content"
 	        android:layout_alignBottom="@+id/threshold"
-	        android:text="Volume Threshold" />
+	        android:text="@string/sensitivity_label" />
 	    
 	    <LinearLayout
 	        android:id="@+id/thresholdWrapper"
@@ -45,13 +45,13 @@
 
     <Button
         android:id="@+id/playButton"
+        style="@style/button"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
         android:layout_margin="20dp"
-        android:background="@color/buttons"
-        android:text="Continuous Play" />
+        android:text="@string/continuous_play" />
 
 
 </RelativeLayout>

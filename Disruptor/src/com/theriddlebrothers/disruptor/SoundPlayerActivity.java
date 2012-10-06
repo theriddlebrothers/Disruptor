@@ -3,24 +3,27 @@ package com.theriddlebrothers.disruptor;
 import java.util.Timer;
 import java.util.TimerTask;
 import android.app.Activity;
+import android.content.Intent;
 import android.media.AudioManager;
 import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.MotionEvent;
 import android.view.View;
 import android.widget.Button;
 import android.widget.SeekBar;
 import android.widget.TextView;
 
-public class SoundPlayerActivity extends Activity {
+public class SoundPlayerActivity extends DefaultActivity {
     private MediaPlayer mPlayer;
     private boolean isPlaying = false;
     private boolean isContinuous = false;
     private final String TAG = "Disruptor";
     private SoundMeter meter;
-    private final int DEFAULT_METER_THRESHOLD = 20;
+    private final double DEFAULT_METER_THRESHOLD = 20;
+    private final int METER_MULTIPLIER = 10;
     private double currentMeterThreshold;
 
     @Override
@@ -28,7 +31,12 @@ public class SoundPlayerActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_soundplayer);
 
-        this.currentMeterThreshold = getThreshold(DEFAULT_METER_THRESHOLD);
+        Intent currentIntent = getIntent(); // gets the previously created intent
+        double defaultThreshold = currentIntent.getDoubleExtra("defaultThreshold", DEFAULT_METER_THRESHOLD)
+                                    * METER_MULTIPLIER;
+        int defaultThresholdInt = (int)Math.floor(defaultThreshold);
+
+        this.currentMeterThreshold = getThreshold(defaultThresholdInt);
 
         // Set the hardware buttons to control the music
         this.setVolumeControlStream(AudioManager.STREAM_MUSIC);
@@ -40,30 +48,44 @@ public class SoundPlayerActivity extends Activity {
         meter.start();
         new Timer().scheduleAtFixedRate(new MonitorDecibelsTask(), 100, 100);
 
-        // Bind events
+        // Play sound while holding button down
         final Button button = (Button) findViewById(R.id.playButton);
-        button.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-                // Perform action on click
-                toggleSound();
+        button.setOnTouchListener(new View.OnTouchListener() {
+            public boolean onTouch(View v, MotionEvent event) {
+
+                switch (event.getAction()) {
+                    case MotionEvent.ACTION_DOWN: {
+                        toggleSound();
+                        return true;
+                    }
+
+                    case MotionEvent.ACTION_UP: {
+                        toggleSound();
+                        return true;
+                    }
+
+                    default:
+                        return false;
+                }
             }
         });
 
+
         // Set default threshold
-        TextView tv = (TextView)findViewById(R.id.thresholdValue);
-        tv.setText(Integer.toString(DEFAULT_METER_THRESHOLD));
+        TextView tv = (TextView) findViewById(R.id.thresholdValue);
+        tv.setText(Integer.toString(defaultThresholdInt));
 
         // Setup seek bar min/max and progress changes
         final SeekBar seekBar = (SeekBar) findViewById(R.id.threshold);
-        seekBar.setProgress(DEFAULT_METER_THRESHOLD);
-        seekBar.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
+        seekBar.setProgress(defaultThresholdInt);
+        seekBar.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener()
+        {
 
-            public void onProgressChanged(SeekBar seekBar, int progress,
-                                          boolean fromUser)
+            public void onProgressChanged (SeekBar seekBar,int progress, boolean fromUser)
             {
                 double newProgress = getThreshold(progress);
 
-                TextView tv = (TextView)findViewById(R.id.thresholdValue);
+                TextView tv = (TextView) findViewById(R.id.thresholdValue);
                 tv.setText(Integer.toString(progress));
 
                 // Prevent an absolute 0 threshold (otherwise it would just keep playing)
@@ -71,32 +93,18 @@ public class SoundPlayerActivity extends Activity {
                 SoundPlayerActivity.this.currentMeterThreshold = newProgress;
             }
 
-            public void onStartTrackingTouch(SeekBar seekBar)
-            {
+            public void onStartTrackingTouch(SeekBar seekBar) {
                 // TODO Auto-generated method stub
             }
 
-            public void onStopTrackingTouch(SeekBar seekBar)
-            {
+            public void onStopTrackingTouch(SeekBar seekBar) {
                 // TODO Auto-generated method stub
             }
         });
     }
 
     private double getThreshold(int rounded) {
-        return rounded / 10;
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        switch (item.getItemId()) {
-            case R.id.exitMenuItem:
-                finish();
-                System.exit(0);
-                return true;
-            default:
-                return super.onOptionsItemSelected(item);
-        }
+        return rounded / METER_MULTIPLIER;
     }
 
     // Monitor external mic  to determine if annoying sound should be played/stopped
@@ -125,12 +133,10 @@ public class SoundPlayerActivity extends Activity {
         if (isPlaying) {
             isContinuous = false;
             stopSound();
-            button.setText("Play");
         }
         else {
             isContinuous = true;
             playSound();
-            button.setText("Stop");
         }
     }
 
@@ -146,11 +152,5 @@ public class SoundPlayerActivity extends Activity {
         Log.d(TAG, "Stopping sound...");
         mPlayer.pause();
         isPlaying = false;
-    }
-
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.activity_main, menu);
-        return true;
     }
 }

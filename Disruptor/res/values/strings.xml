@@ -4,6 +4,14 @@
     <string name="menu_settings">Settings</string>
     <string name="title_activity_main">Disruptor: Sound</string>
     <string name="title_activity_soundplayer">Disruptor</string>
+    <string name="title_activity_configure">Configuration</string>
     <string name="exit">Exit</string>
+
+    <string name="sensitivity_label">Sensitivity</string>
+    <string name="continuous_play">Hold to Play Manually</string>
+    <string name="instructions">
+        Disruptor will play for a few seconds to determine the volume of the room while playing.
+        Do this in a quiet environment before anyone is blabbling away.
+    </string>
 
 </resources>
