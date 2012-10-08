@@ -97,6 +97,11 @@ public class ConfigureActivity extends DefaultActivity {
         mPlayer.release();
         meter.stop();
         timer.cancel();
+
+        // make sure we close the screen so the user won't come back when it presses back key
+        finish();
+
+        // Fire up main activity
         Intent intent = new Intent(this, SoundPlayerActivity.class);
         intent.putExtra("defaultThreshold", avgThreshold);
         startActivity(intent);
