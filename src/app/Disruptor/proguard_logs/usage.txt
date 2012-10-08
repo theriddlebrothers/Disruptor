@@ -1,0 +1,16 @@
+android.annotation.SuppressLint
+android.annotation.TargetApi
+com.theriddlebrothers.disruptor.BuildConfig
+com.theriddlebrothers.disruptor.R
+com.theriddlebrothers.disruptor.R$attr
+com.theriddlebrothers.disruptor.R$color
+com.theriddlebrothers.disruptor.R$drawable
+com.theriddlebrothers.disruptor.R$id
+com.theriddlebrothers.disruptor.R$layout
+com.theriddlebrothers.disruptor.R$menu
+com.theriddlebrothers.disruptor.R$raw
+com.theriddlebrothers.disruptor.R$string
+com.theriddlebrothers.disruptor.R$style
+com.theriddlebrothers.disruptor.SoundMeter:
+    private static final double EMA_FILTER
+    67:69:public double getAmplitudeEMA()

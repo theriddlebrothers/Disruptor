@@ -1,0 +1,2806 @@
+_____________________________________________________________________
++ Program class: com/theriddlebrothers/disruptor/ConfigureActivity
+  Superclass:    com/theriddlebrothers/disruptor/c
+  Major version: 0x32
+  Minor version: 0x0
+  Access flags:  0x21
+    = public class com.theriddlebrothers.disruptor.ConfigureActivity extends com.theriddlebrothers.disruptor.c
+
+Interfaces (count = 0):
+
+Constant Pool (count = 191):
+  + Integer [10]
+  + Integer [2130903040]
+  + Integer [2130968576]
+  + Integer [2131230720]
+  + Integer [2131296256]
+  + Integer [2131296257]
+  + Integer [2131296258]
+  + String [ConfigureActivity]
+  + String [Starting configuration...]
+  + String [Stopping configuration...]
+  + String [defaultThreshold]
+  + Class [android/content/Intent]
+  + Class [android/media/MediaPlayer]
+  + Class [android/util/Log]
+  + Class [android/view/MenuInflater]
+  + Class [android/view/MenuItem]
+  + Class [android/widget/Button]
+  + Class [android/widget/LinearLayout]
+  + Class [android/widget/ProgressBar]
+  + Class [com/theriddlebrothers/disruptor/ConfigureActivity]
+  + Class [com/theriddlebrothers/disruptor/SoundPlayerActivity]
+  + Class [com/theriddlebrothers/disruptor/a]
+  + Class [com/theriddlebrothers/disruptor/b]
+  + Class [com/theriddlebrothers/disruptor/c]
+  + Class [com/theriddlebrothers/disruptor/f]
+  + Class [java/lang/System]
+  + Class [java/util/Timer]
+  + Long [500]
+  + Fieldref [com/theriddlebrothers/disruptor/ConfigureActivity.a Landroid/media/MediaPlayer;]
+  + Fieldref [com/theriddlebrothers/disruptor/ConfigureActivity.b Ljava/lang/String;]
+  + Fieldref [com/theriddlebrothers/disruptor/ConfigureActivity.c Lcom/theriddlebrothers/disruptor/f;]
+  + Fieldref [com/theriddlebrothers/disruptor/ConfigureActivity.d I]
+  + Fieldref [com/theriddlebrothers/disruptor/ConfigureActivity.e I]
+  + Fieldref [com/theriddlebrothers/disruptor/ConfigureActivity.f Ljava/util/Timer;]
+  + Fieldref [com/theriddlebrothers/disruptor/ConfigureActivity.g D]
+  + Fieldref [com/theriddlebrothers/disruptor/ConfigureActivity.h D]
+  + Methodref [android/content/Intent.<init> (Landroid/content/Context;Ljava/lang/Class;)V]
+  + Methodref [android/content/Intent.putExtra (Ljava/lang/String;D)Landroid/content/Intent;]
+  + Methodref [android/media/MediaPlayer.create (Landroid/content/Context;I)Landroid/media/MediaPlayer;]
+  + Methodref [android/media/MediaPlayer.release ()V]
+  + Methodref [android/media/MediaPlayer.setLooping (Z)V]
+  + Methodref [android/media/MediaPlayer.start ()V]
+  + Methodref [android/media/MediaPlayer.stop ()V]
+  + Methodref [android/util/Log.d (Ljava/lang/String;Ljava/lang/String;)I]
+  + Methodref [android/view/MenuInflater.inflate (ILandroid/view/Menu;)V]
+  + Methodref [android/widget/Button.setOnClickListener (Landroid/view/View$OnClickListener;)V]
+  + Methodref [android/widget/LinearLayout.setVisibility (I)V]
+  + Methodref [android/widget/ProgressBar.setVisibility (I)V]
+  + Methodref [com/theriddlebrothers/disruptor/ConfigureActivity.findViewById (I)Landroid/view/View;]
+  + Methodref [com/theriddlebrothers/disruptor/ConfigureActivity.finish ()V]
+  + Methodref [com/theriddlebrothers/disruptor/ConfigureActivity.getMenuInflater ()Landroid/view/MenuInflater;]
+  + Methodref [com/theriddlebrothers/disruptor/ConfigureActivity.setContentView (I)V]
+  + Methodref [com/theriddlebrothers/disruptor/ConfigureActivity.setVolumeControlStream (I)V]
+  + Methodref [com/theriddlebrothers/disruptor/ConfigureActivity.startActivity (Landroid/content/Intent;)V]
+  + Methodref [com/theriddlebrothers/disruptor/a.<init> (Lcom/theriddlebrothers/disruptor/ConfigureActivity;)V]
+  + Methodref [com/theriddlebrothers/disruptor/b.<init> (Lcom/theriddlebrothers/disruptor/ConfigureActivity;Lcom/theriddlebrothers/disruptor/a;)V]
+  + Methodref [com/theriddlebrothers/disruptor/c.<init> ()V]
+  + Methodref [com/theriddlebrothers/disruptor/c.onCreate (Landroid/os/Bundle;)V]
+  + Methodref [com/theriddlebrothers/disruptor/c.onOptionsItemSelected (Landroid/view/MenuItem;)Z]
+  + Methodref [com/theriddlebrothers/disruptor/f.<init> ()V]
+  + Methodref [com/theriddlebrothers/disruptor/f.a ()V]
+  + Methodref [com/theriddlebrothers/disruptor/f.b ()V]
+  + Methodref [com/theriddlebrothers/disruptor/f.c ()D]
+  + Methodref [java/lang/System.exit (I)V]
+  + Methodref [java/util/Timer.<init> ()V]
+  + Methodref [java/util/Timer.cancel ()V]
+  + Methodref [java/util/Timer.scheduleAtFixedRate (Ljava/util/TimerTask;JJ)V]
+  + InterfaceMethodref [android/view/MenuItem.getItemId ()I]
+  + NameAndType [<init> ()V]
+  + NameAndType [<init> (Landroid/content/Context;Ljava/lang/Class;)V]
+  + NameAndType [<init> (Lcom/theriddlebrothers/disruptor/ConfigureActivity;)V]
+  + NameAndType [<init> (Lcom/theriddlebrothers/disruptor/ConfigureActivity;Lcom/theriddlebrothers/disruptor/a;)V]
+  + NameAndType [a ()V]
+  + NameAndType [a Landroid/media/MediaPlayer;]
+  + NameAndType [b ()V]
+  + NameAndType [b Ljava/lang/String;]
+  + NameAndType [c ()D]
+  + NameAndType [c Lcom/theriddlebrothers/disruptor/f;]
+  + NameAndType [cancel ()V]
+  + NameAndType [create (Landroid/content/Context;I)Landroid/media/MediaPlayer;]
+  + NameAndType [d (Ljava/lang/String;Ljava/lang/String;)I]
+  + NameAndType [d I]
+  + NameAndType [e I]
+  + NameAndType [exit (I)V]
+  + NameAndType [f Ljava/util/Timer;]
+  + NameAndType [findViewById (I)Landroid/view/View;]
+  + NameAndType [finish ()V]
+  + NameAndType [g D]
+  + NameAndType [getItemId ()I]
+  + NameAndType [getMenuInflater ()Landroid/view/MenuInflater;]
+  + NameAndType [h D]
+  + NameAndType [inflate (ILandroid/view/Menu;)V]
+  + NameAndType [onCreate (Landroid/os/Bundle;)V]
+  + NameAndType [onOptionsItemSelected (Landroid/view/MenuItem;)Z]
+  + NameAndType [putExtra (Ljava/lang/String;D)Landroid/content/Intent;]
+  + NameAndType [release ()V]
+  + NameAndType [scheduleAtFixedRate (Ljava/util/TimerTask;JJ)V]
+  + NameAndType [setContentView (I)V]
+  + NameAndType [setLooping (Z)V]
+  + NameAndType [setOnClickListener (Landroid/view/View$OnClickListener;)V]
+  + NameAndType [setVisibility (I)V]
+  + NameAndType [setVolumeControlStream (I)V]
+  + NameAndType [start ()V]
+  + NameAndType [startActivity (Landroid/content/Intent;)V]
+  + NameAndType [stop ()V]
+  + Utf8 [()D]
+  + Utf8 [()I]
+  + Utf8 [()Landroid/view/MenuInflater;]
+  + Utf8 [()V]
+  + Utf8 [(I)Landroid/view/View;]
+  + Utf8 [(I)V]
+  + Utf8 [(ILandroid/view/Menu;)V]
+  + Utf8 [(Landroid/content/Context;I)Landroid/media/MediaPlayer;]
+  + Utf8 [(Landroid/content/Context;Ljava/lang/Class;)V]
+  + Utf8 [(Landroid/content/Intent;)V]
+  + Utf8 [(Landroid/os/Bundle;)V]
+  + Utf8 [(Landroid/view/Menu;)Z]
+  + Utf8 [(Landroid/view/MenuItem;)Z]
+  + Utf8 [(Landroid/view/View$OnClickListener;)V]
+  + Utf8 [(Lcom/theriddlebrothers/disruptor/ConfigureActivity;)D]
+  + Utf8 [(Lcom/theriddlebrothers/disruptor/ConfigureActivity;)I]
+  + Utf8 [(Lcom/theriddlebrothers/disruptor/ConfigureActivity;)Lcom/theriddlebrothers/disruptor/f;]
+  + Utf8 [(Lcom/theriddlebrothers/disruptor/ConfigureActivity;)V]
+  + Utf8 [(Lcom/theriddlebrothers/disruptor/ConfigureActivity;D)D]
+  + Utf8 [(Lcom/theriddlebrothers/disruptor/ConfigureActivity;Lcom/theriddlebrothers/disruptor/a;)V]
+  + Utf8 [(Ljava/lang/String;D)Landroid/content/Intent;]
+  + Utf8 [(Ljava/lang/String;Ljava/lang/String;)I]
+  + Utf8 [(Ljava/util/TimerTask;JJ)V]
+  + Utf8 [(Z)V]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [ConfigureActivity]
+  + Utf8 [ConstantValue]
+  + Utf8 [D]
+  + Utf8 [I]
+  + Utf8 [Landroid/media/MediaPlayer;]
+  + Utf8 [Lcom/theriddlebrothers/disruptor/f;]
+  + Utf8 [Ljava/lang/String;]
+  + Utf8 [Ljava/util/Timer;]
+  + Utf8 [StackMapTable]
+  + Utf8 [Starting configuration...]
+  + Utf8 [Stopping configuration...]
+  + Utf8 [a]
+  + Utf8 [android/content/Intent]
+  + Utf8 [android/media/MediaPlayer]
+  + Utf8 [android/util/Log]
+  + Utf8 [android/view/MenuInflater]
+  + Utf8 [android/view/MenuItem]
+  + Utf8 [android/widget/Button]
+  + Utf8 [android/widget/LinearLayout]
+  + Utf8 [android/widget/ProgressBar]
+  + Utf8 [b]
+  + Utf8 [c]
+  + Utf8 [cancel]
+  + Utf8 [com/theriddlebrothers/disruptor/ConfigureActivity]
+  + Utf8 [com/theriddlebrothers/disruptor/SoundPlayerActivity]
+  + Utf8 [com/theriddlebrothers/disruptor/a]
+  + Utf8 [com/theriddlebrothers/disruptor/b]
+  + Utf8 [com/theriddlebrothers/disruptor/c]
+  + Utf8 [com/theriddlebrothers/disruptor/f]
+  + Utf8 [create]
+  + Utf8 [d]
+  + Utf8 [defaultThreshold]
+  + Utf8 [e]
+  + Utf8 [exit]
+  + Utf8 [f]
+  + Utf8 [findViewById]
+  + Utf8 [finish]
+  + Utf8 [g]
+  + Utf8 [getItemId]
+  + Utf8 [getMenuInflater]
+  + Utf8 [h]
+  + Utf8 [inflate]
+  + Utf8 [java/lang/System]
+  + Utf8 [java/util/Timer]
+  + Utf8 [onCreate]
+  + Utf8 [onCreateOptionsMenu]
+  + Utf8 [onOptionsItemSelected]
+  + Utf8 [putExtra]
+  + Utf8 [release]
+  + Utf8 [scheduleAtFixedRate]
+  + Utf8 [setContentView]
+  + Utf8 [setLooping]
+  + Utf8 [setOnClickListener]
+  + Utf8 [setVisibility]
+  + Utf8 [setVolumeControlStream]
+  + Utf8 [start]
+  + Utf8 [startActivity]
+  + Utf8 [stop]
+
+Fields (count = 8):
+  + Field:        a Landroid/media/MediaPlayer;
+    Access flags: 0x2
+      = private android.media.MediaPlayer a
+  + Field:        b Ljava/lang/String;
+    Access flags: 0x12
+      = private final java.lang.String b
+    Class member attributes (count = 1):
+    + Constant value attribute:
+    + String [ConfigureActivity]
+  + Field:        c Lcom/theriddlebrothers/disruptor/f;
+    Access flags: 0x2
+      = private com.theriddlebrothers.disruptor.f c
+  + Field:        d I
+    Access flags: 0x12
+      = private final int d
+    Class member attributes (count = 1):
+    + Constant value attribute:
+    + Integer [10]
+  + Field:        e I
+    Access flags: 0x2
+      = private int e
+  + Field:        f Ljava/util/Timer;
+    Access flags: 0x2
+      = private java.util.Timer f
+  + Field:        g D
+    Access flags: 0x2
+      = private double g
+  + Field:        h D
+    Access flags: 0x2
+      = private double h
+
+Methods (count = 13):
+  - Method:       <init>()V
+    Access flags: 0x1
+      = public ConfigureActivity()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 22, locals = 1, stack = 2):
+      [0] aload_0 v0
+      [1] invokespecial #58
+        + Methodref [com/theriddlebrothers/disruptor/c.<init> ()V]
+      [4] aload_0 v0
+      [5] ldc #8
+        + String [ConfigureActivity]
+      [7] putfield #31
+        + Fieldref [com/theriddlebrothers/disruptor/ConfigureActivity.b Ljava/lang/String;]
+      [10] aload_0 v0
+      [11] bipush 10
+      [13] putfield #33
+        + Fieldref [com/theriddlebrothers/disruptor/ConfigureActivity.d I]
+      [16] aload_0 v0
+      [17] iconst_0
+      [18] putfield #34
+        + Fieldref [com/theriddlebrothers/disruptor/ConfigureActivity.e I]
+      [21] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onCreate(Landroid/os/Bundle;)V
+    Access flags: 0x1
+      = public void onCreate(android.os.Bundle)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 57, locals = 3, stack = 4):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] invokespecial #59
+        + Methodref [com/theriddlebrothers/disruptor/c.onCreate (Landroid/os/Bundle;)V]
+      [5] aload_0 v0
+      [6] ldc #2
+        + Integer [2130903040]
+      [8] invokevirtual #53
+        + Methodref [com/theriddlebrothers/disruptor/ConfigureActivity.setContentView (I)V]
+      [11] aload_0 v0
+      [12] iconst_3
+      [13] invokevirtual #54
+        + Methodref [com/theriddlebrothers/disruptor/ConfigureActivity.setVolumeControlStream (I)V]
+      [16] aload_0 v0
+      [17] aload_0 v0
+      [18] ldc #3
+        + Integer [2130968576]
+      [20] invokestatic #40
+        + Methodref [android/media/MediaPlayer.create (Landroid/content/Context;I)Landroid/media/MediaPlayer;]
+      [23] putfield #30
+        + Fieldref [com/theriddlebrothers/disruptor/ConfigureActivity.a Landroid/media/MediaPlayer;]
+      [26] aload_0 v0
+      [27] getfield #30
+        + Fieldref [com/theriddlebrothers/disruptor/ConfigureActivity.a Landroid/media/MediaPlayer;]
+      [30] iconst_1
+      [31] invokevirtual #42
+        + Methodref [android/media/MediaPlayer.setLooping (Z)V]
+      [34] aload_0 v0
+      [35] ldc #6
+        + Integer [2131296257]
+      [37] invokevirtual #50
+        + Methodref [com/theriddlebrothers/disruptor/ConfigureActivity.findViewById (I)Landroid/view/View;]
+      [40] checkcast #17
+        + Class [android/widget/Button]
+      [43] astore_2 v2
+      [44] aload_2 v2
+      [45] new #22
+        + Class [com/theriddlebrothers/disruptor/a]
+      [48] dup
+      [49] aload_0 v0
+      [50] invokespecial #56
+        + Methodref [com/theriddlebrothers/disruptor/a.<init> (Lcom/theriddlebrothers/disruptor/ConfigureActivity;)V]
+      [53] invokevirtual #47
+        + Methodref [android/widget/Button.setOnClickListener (Landroid/view/View$OnClickListener;)V]
+      [56] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       a()V
+    Access flags: 0x1
+      = public void a()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 106, locals = 3, stack = 6):
+      [0] ldc #8
+        + String [ConfigureActivity]
+      [2] ldc #9
+        + String [Starting configuration...]
+      [4] invokestatic #45
+        + Methodref [android/util/Log.d (Ljava/lang/String;Ljava/lang/String;)I]
+      [7] pop
+      [8] aload_0 v0
+      [9] ldc #7
+        + Integer [2131296258]
+      [11] invokevirtual #50
+        + Methodref [com/theriddlebrothers/disruptor/ConfigureActivity.findViewById (I)Landroid/view/View;]
+      [14] checkcast #19
+        + Class [android/widget/ProgressBar]
+      [17] astore_1 v1
+      [18] aload_1 v1
+      [19] iconst_0
+      [20] invokevirtual #49
+        + Methodref [android/widget/ProgressBar.setVisibility (I)V]
+      [23] aload_0 v0
+      [24] ldc #5
+        + Integer [2131296256]
+      [26] invokevirtual #50
+        + Methodref [com/theriddlebrothers/disruptor/ConfigureActivity.findViewById (I)Landroid/view/View;]
+      [29] checkcast #18
+        + Class [android/widget/LinearLayout]
+      [32] astore_2 v2
+      [33] aload_2 v2
+      [34] bipush 8
+      [36] invokevirtual #48
+        + Methodref [android/widget/LinearLayout.setVisibility (I)V]
+      [39] aload_0 v0
+      [40] getfield #30
+        + Fieldref [com/theriddlebrothers/disruptor/ConfigureActivity.a Landroid/media/MediaPlayer;]
+      [43] invokevirtual #43
+        + Methodref [android/media/MediaPlayer.start ()V]
+      [46] aload_0 v0
+      [47] new #25
+        + Class [com/theriddlebrothers/disruptor/f]
+      [50] dup
+      [51] invokespecial #61
+        + Methodref [com/theriddlebrothers/disruptor/f.<init> ()V]
+      [54] putfield #32
+        + Fieldref [com/theriddlebrothers/disruptor/ConfigureActivity.c Lcom/theriddlebrothers/disruptor/f;]
+      [57] aload_0 v0
+      [58] getfield #32
+        + Fieldref [com/theriddlebrothers/disruptor/ConfigureActivity.c Lcom/theriddlebrothers/disruptor/f;]
+      [61] invokevirtual #62
+        + Methodref [com/theriddlebrothers/disruptor/f.a ()V]
+      [64] aload_0 v0
+      [65] getfield #32
+        + Fieldref [com/theriddlebrothers/disruptor/ConfigureActivity.c Lcom/theriddlebrothers/disruptor/f;]
+      [68] invokevirtual #64
+        + Methodref [com/theriddlebrothers/disruptor/f.c ()D]
+      [71] pop2
+      [72] aload_0 v0
+      [73] new #27
+        + Class [java/util/Timer]
+      [76] dup
+      [77] invokespecial #66
+        + Methodref [java/util/Timer.<init> ()V]
+      [80] putfield #35
+        + Fieldref [com/theriddlebrothers/disruptor/ConfigureActivity.f Ljava/util/Timer;]
+      [83] aload_0 v0
+      [84] getfield #35
+        + Fieldref [com/theriddlebrothers/disruptor/ConfigureActivity.f Ljava/util/Timer;]
+      [87] new #23
+        + Class [com/theriddlebrothers/disruptor/b]
+      [90] dup
+      [91] aload_0 v0
+      [92] aconst_null
+      [93] invokespecial #57
+        + Methodref [com/theriddlebrothers/disruptor/b.<init> (Lcom/theriddlebrothers/disruptor/ConfigureActivity;Lcom/theriddlebrothers/disruptor/a;)V]
+      [96] ldc2_w #28
+        + Long [500]
+      [99] ldc2_w #28
+        + Long [500]
+      [102] invokevirtual #68
+        + Methodref [java/util/Timer.scheduleAtFixedRate (Ljava/util/TimerTask;JJ)V]
+      [105] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       b()V
+    Access flags: 0x1
+      = public void b()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 64, locals = 2, stack = 4):
+      [0] ldc #8
+        + String [ConfigureActivity]
+      [2] ldc #10
+        + String [Stopping configuration...]
+      [4] invokestatic #45
+        + Methodref [android/util/Log.d (Ljava/lang/String;Ljava/lang/String;)I]
+      [7] pop
+      [8] aload_0 v0
+      [9] getfield #30
+        + Fieldref [com/theriddlebrothers/disruptor/ConfigureActivity.a Landroid/media/MediaPlayer;]
+      [12] invokevirtual #44
+        + Methodref [android/media/MediaPlayer.stop ()V]
+      [15] aload_0 v0
+      [16] getfield #30
+        + Fieldref [com/theriddlebrothers/disruptor/ConfigureActivity.a Landroid/media/MediaPlayer;]
+      [19] invokevirtual #41
+        + Methodref [android/media/MediaPlayer.release ()V]
+      [22] aload_0 v0
+      [23] getfield #32
+        + Fieldref [com/theriddlebrothers/disruptor/ConfigureActivity.c Lcom/theriddlebrothers/disruptor/f;]
+      [26] invokevirtual #63
+        + Methodref [com/theriddlebrothers/disruptor/f.b ()V]
+      [29] aload_0 v0
+      [30] getfield #35
+        + Fieldref [com/theriddlebrothers/disruptor/ConfigureActivity.f Ljava/util/Timer;]
+      [33] invokevirtual #67
+        + Methodref [java/util/Timer.cancel ()V]
+      [36] new #12
+        + Class [android/content/Intent]
+      [39] dup
+      [40] aload_0 v0
+      [41] ldc #21
+        + Class [com/theriddlebrothers/disruptor/SoundPlayerActivity]
+      [43] invokespecial #38
+        + Methodref [android/content/Intent.<init> (Landroid/content/Context;Ljava/lang/Class;)V]
+      [46] astore_1 v1
+      [47] aload_1 v1
+      [48] ldc #11
+        + String [defaultThreshold]
+      [50] aload_0 v0
+      [51] getfield #37
+        + Fieldref [com/theriddlebrothers/disruptor/ConfigureActivity.h D]
+      [54] invokevirtual #39
+        + Methodref [android/content/Intent.putExtra (Ljava/lang/String;D)Landroid/content/Intent;]
+      [57] pop
+      [58] aload_0 v0
+      [59] aload_1 v1
+      [60] invokevirtual #55
+        + Methodref [com/theriddlebrothers/disruptor/ConfigureActivity.startActivity (Landroid/content/Intent;)V]
+      [63] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onCreateOptionsMenu(Landroid/view/Menu;)Z
+    Access flags: 0x1
+      = public boolean onCreateOptionsMenu(android.view.Menu)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 12, locals = 2, stack = 3):
+      [0] aload_0 v0
+      [1] invokevirtual #52
+        + Methodref [com/theriddlebrothers/disruptor/ConfigureActivity.getMenuInflater ()Landroid/view/MenuInflater;]
+      [4] ldc #4
+        + Integer [2131230720]
+      [6] aload_1 v1
+      [7] invokevirtual #46
+        + Methodref [android/view/MenuInflater.inflate (ILandroid/view/Menu;)V]
+      [10] iconst_1
+      [11] ireturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onOptionsItemSelected(Landroid/view/MenuItem;)Z
+    Access flags: 0x1
+      = public boolean onOptionsItemSelected(android.view.MenuItem)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 40, locals = 2, stack = 2):
+      [0] aload_1 v1
+      [1] invokeinterface #69
+        + InterfaceMethodref [android/view/MenuItem.getItemId ()I]
+      [6] lookupswitch (1 offsets, default=28) (target=34)
+        2131296266: offset = 18, target = 24
+        default: offset = 28, target = 34
+      [24] aload_0 v0
+      [25] invokevirtual #51
+        + Methodref [com/theriddlebrothers/disruptor/ConfigureActivity.finish ()V]
+      [28] iconst_0
+      [29] invokestatic #65
+        + Methodref [java/lang/System.exit (I)V]
+      [32] iconst_1
+      [33] ireturn
+      [34] aload_0 v0
+      [35] aload_1 v1
+      [36] invokespecial #60
+        + Methodref [com/theriddlebrothers/disruptor/c.onOptionsItemSelected (Landroid/view/MenuItem;)Z]
+      [39] ireturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Stack map table attribute (count = 2):
+        - [24] Var: ..., Stack: (empty)
+        - [34] Var: ..., Stack: (empty)
+  + Method:       a(Lcom/theriddlebrothers/disruptor/ConfigureActivity;)Lcom/theriddlebrothers/disruptor/f;
+    Access flags: 0x1008
+      = static synthetic com.theriddlebrothers.disruptor.f a(com.theriddlebrothers.disruptor.ConfigureActivity)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] getfield #32
+        + Fieldref [com/theriddlebrothers/disruptor/ConfigureActivity.c Lcom/theriddlebrothers/disruptor/f;]
+      [4] areturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       b(Lcom/theriddlebrothers/disruptor/ConfigureActivity;)I
+    Access flags: 0x1008
+      = static synthetic int b(com.theriddlebrothers.disruptor.ConfigureActivity)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 12, locals = 1, stack = 4):
+      [0] aload_0 v0
+      [1] dup
+      [2] getfield #34
+        + Fieldref [com/theriddlebrothers/disruptor/ConfigureActivity.e I]
+      [5] dup_x1
+      [6] iconst_1
+      [7] iadd
+      [8] putfield #34
+        + Fieldref [com/theriddlebrothers/disruptor/ConfigureActivity.e I]
+      [11] ireturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       c(Lcom/theriddlebrothers/disruptor/ConfigureActivity;)I
+    Access flags: 0x1008
+      = static synthetic int c(com.theriddlebrothers.disruptor.ConfigureActivity)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] getfield #34
+        + Fieldref [com/theriddlebrothers/disruptor/ConfigureActivity.e I]
+      [4] ireturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       a(Lcom/theriddlebrothers/disruptor/ConfigureActivity;D)D
+    Access flags: 0x1008
+      = static synthetic double a(com.theriddlebrothers.disruptor.ConfigureActivity,double)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 12, locals = 3, stack = 5):
+      [0] aload_0 v0
+      [1] dup
+      [2] getfield #36
+        + Fieldref [com/theriddlebrothers/disruptor/ConfigureActivity.g D]
+      [5] dload_1 v1
+      [6] dadd
+      [7] dup2_x1
+      [8] putfield #36
+        + Fieldref [com/theriddlebrothers/disruptor/ConfigureActivity.g D]
+      [11] dreturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       b(Lcom/theriddlebrothers/disruptor/ConfigureActivity;D)D
+    Access flags: 0x1008
+      = static synthetic double b(com.theriddlebrothers.disruptor.ConfigureActivity,double)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 7, locals = 3, stack = 5):
+      [0] aload_0 v0
+      [1] dload_1 v1
+      [2] dup2_x1
+      [3] putfield #37
+        + Fieldref [com/theriddlebrothers/disruptor/ConfigureActivity.h D]
+      [6] dreturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       d(Lcom/theriddlebrothers/disruptor/ConfigureActivity;)D
+    Access flags: 0x1008
+      = static synthetic double d(com.theriddlebrothers.disruptor.ConfigureActivity)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 2):
+      [0] aload_0 v0
+      [1] getfield #36
+        + Fieldref [com/theriddlebrothers/disruptor/ConfigureActivity.g D]
+      [4] dreturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       e(Lcom/theriddlebrothers/disruptor/ConfigureActivity;)D
+    Access flags: 0x1008
+      = static synthetic double e(com.theriddlebrothers.disruptor.ConfigureActivity)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 2):
+      [0] aload_0 v0
+      [1] getfield #37
+        + Fieldref [com/theriddlebrothers/disruptor/ConfigureActivity.h D]
+      [4] dreturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: com/theriddlebrothers/disruptor/a
+  Superclass:    java/lang/Object
+  Major version: 0x32
+  Minor version: 0x0
+  Access flags:  0x20
+    = class com.theriddlebrothers.disruptor.a extends java.lang.Object
+
+Interfaces (count = 1):
+  + Class [android/view/View$OnClickListener]
+
+Constant Pool (count = 23):
+  + Class [android/view/View$OnClickListener]
+  + Class [com/theriddlebrothers/disruptor/ConfigureActivity]
+  + Class [com/theriddlebrothers/disruptor/a]
+  + Class [java/lang/Object]
+  + Fieldref [com/theriddlebrothers/disruptor/a.a Lcom/theriddlebrothers/disruptor/ConfigureActivity;]
+  + Methodref [com/theriddlebrothers/disruptor/ConfigureActivity.a ()V]
+  + Methodref [java/lang/Object.<init> ()V]
+  + NameAndType [<init> ()V]
+  + NameAndType [a ()V]
+  + NameAndType [a Lcom/theriddlebrothers/disruptor/ConfigureActivity;]
+  + Utf8 [()V]
+  + Utf8 [(Landroid/view/View;)V]
+  + Utf8 [(Lcom/theriddlebrothers/disruptor/ConfigureActivity;)V]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [Lcom/theriddlebrothers/disruptor/ConfigureActivity;]
+  + Utf8 [a]
+  + Utf8 [android/view/View$OnClickListener]
+  + Utf8 [com/theriddlebrothers/disruptor/ConfigureActivity]
+  + Utf8 [com/theriddlebrothers/disruptor/a]
+  + Utf8 [java/lang/Object]
+  + Utf8 [onClick]
+
+Fields (count = 1):
+  + Field:        a Lcom/theriddlebrothers/disruptor/ConfigureActivity;
+    Access flags: 0x1010
+      = final synthetic com.theriddlebrothers.disruptor.ConfigureActivity a
+
+Methods (count = 2):
+  - Method:       <init>(Lcom/theriddlebrothers/disruptor/ConfigureActivity;)V
+    Access flags: 0x0
+      = a(com.theriddlebrothers.disruptor.ConfigureActivity)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 10, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] putfield #5
+        + Fieldref [com/theriddlebrothers/disruptor/a.a Lcom/theriddlebrothers/disruptor/ConfigureActivity;]
+      [5] aload_0 v0
+      [6] invokespecial #7
+        + Methodref [java/lang/Object.<init> ()V]
+      [9] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onClick(Landroid/view/View;)V
+    Access flags: 0x1
+      = public void onClick(android.view.View)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 8, locals = 2, stack = 1):
+      [0] aload_0 v0
+      [1] getfield #5
+        + Fieldref [com/theriddlebrothers/disruptor/a.a Lcom/theriddlebrothers/disruptor/ConfigureActivity;]
+      [4] invokevirtual #6
+        + Methodref [com/theriddlebrothers/disruptor/ConfigureActivity.a ()V]
+      [7] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: com/theriddlebrothers/disruptor/b
+  Superclass:    java/util/TimerTask
+  Major version: 0x32
+  Minor version: 0x0
+  Access flags:  0x20
+    = class com.theriddlebrothers.disruptor.b extends java.util.TimerTask
+
+Interfaces (count = 0):
+
+Constant Pool (count = 76):
+  + String [AVG: ]
+  + String [ConfigureActivity]
+  + String [SAMPLE: ]
+  + Class [android/util/Log]
+  + Class [com/theriddlebrothers/disruptor/ConfigureActivity]
+  + Class [com/theriddlebrothers/disruptor/b]
+  + Class [com/theriddlebrothers/disruptor/f]
+  + Class [java/lang/StringBuilder]
+  + Class [java/util/TimerTask]
+  + Fieldref [com/theriddlebrothers/disruptor/b.a Lcom/theriddlebrothers/disruptor/ConfigureActivity;]
+  + Methodref [android/util/Log.d (Ljava/lang/String;Ljava/lang/String;)I]
+  + Methodref [com/theriddlebrothers/disruptor/ConfigureActivity.a (Lcom/theriddlebrothers/disruptor/ConfigureActivity;)Lcom/theriddlebrothers/disruptor/f;]
+  + Methodref [com/theriddlebrothers/disruptor/ConfigureActivity.a (Lcom/theriddlebrothers/disruptor/ConfigureActivity;D)D]
+  + Methodref [com/theriddlebrothers/disruptor/ConfigureActivity.b ()V]
+  + Methodref [com/theriddlebrothers/disruptor/ConfigureActivity.b (Lcom/theriddlebrothers/disruptor/ConfigureActivity;)I]
+  + Methodref [com/theriddlebrothers/disruptor/ConfigureActivity.b (Lcom/theriddlebrothers/disruptor/ConfigureActivity;D)D]
+  + Methodref [com/theriddlebrothers/disruptor/ConfigureActivity.c (Lcom/theriddlebrothers/disruptor/ConfigureActivity;)I]
+  + Methodref [com/theriddlebrothers/disruptor/ConfigureActivity.d (Lcom/theriddlebrothers/disruptor/ConfigureActivity;)D]
+  + Methodref [com/theriddlebrothers/disruptor/ConfigureActivity.e (Lcom/theriddlebrothers/disruptor/ConfigureActivity;)D]
+  + Methodref [com/theriddlebrothers/disruptor/b.<init> (Lcom/theriddlebrothers/disruptor/ConfigureActivity;)V]
+  + Methodref [com/theriddlebrothers/disruptor/f.c ()D]
+  + Methodref [java/lang/StringBuilder.<init> ()V]
+  + Methodref [java/lang/StringBuilder.append (D)Ljava/lang/StringBuilder;]
+  + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+  + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+  + Methodref [java/util/TimerTask.<init> ()V]
+  + NameAndType [<init> ()V]
+  + NameAndType [<init> (Lcom/theriddlebrothers/disruptor/ConfigureActivity;)V]
+  + NameAndType [a (Lcom/theriddlebrothers/disruptor/ConfigureActivity;)Lcom/theriddlebrothers/disruptor/f;]
+  + NameAndType [a (Lcom/theriddlebrothers/disruptor/ConfigureActivity;D)D]
+  + NameAndType [a Lcom/theriddlebrothers/disruptor/ConfigureActivity;]
+  + NameAndType [append (D)Ljava/lang/StringBuilder;]
+  + NameAndType [append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+  + NameAndType [b ()V]
+  + NameAndType [b (Lcom/theriddlebrothers/disruptor/ConfigureActivity;)I]
+  + NameAndType [b (Lcom/theriddlebrothers/disruptor/ConfigureActivity;D)D]
+  + NameAndType [c ()D]
+  + NameAndType [c (Lcom/theriddlebrothers/disruptor/ConfigureActivity;)I]
+  + NameAndType [d (Lcom/theriddlebrothers/disruptor/ConfigureActivity;)D]
+  + NameAndType [d (Ljava/lang/String;Ljava/lang/String;)I]
+  + NameAndType [e (Lcom/theriddlebrothers/disruptor/ConfigureActivity;)D]
+  + NameAndType [toString ()Ljava/lang/String;]
+  + Utf8 [()D]
+  + Utf8 [()Ljava/lang/String;]
+  + Utf8 [()V]
+  + Utf8 [(D)Ljava/lang/StringBuilder;]
+  + Utf8 [(Lcom/theriddlebrothers/disruptor/ConfigureActivity;)D]
+  + Utf8 [(Lcom/theriddlebrothers/disruptor/ConfigureActivity;)I]
+  + Utf8 [(Lcom/theriddlebrothers/disruptor/ConfigureActivity;)Lcom/theriddlebrothers/disruptor/f;]
+  + Utf8 [(Lcom/theriddlebrothers/disruptor/ConfigureActivity;)V]
+  + Utf8 [(Lcom/theriddlebrothers/disruptor/ConfigureActivity;D)D]
+  + Utf8 [(Lcom/theriddlebrothers/disruptor/ConfigureActivity;Lcom/theriddlebrothers/disruptor/a;)V]
+  + Utf8 [(Ljava/lang/String;)Ljava/lang/StringBuilder;]
+  + Utf8 [(Ljava/lang/String;Ljava/lang/String;)I]
+  + Utf8 [<init>]
+  + Utf8 [AVG: ]
+  + Utf8 [Code]
+  + Utf8 [ConfigureActivity]
+  + Utf8 [Lcom/theriddlebrothers/disruptor/ConfigureActivity;]
+  + Utf8 [SAMPLE: ]
+  + Utf8 [StackMapTable]
+  + Utf8 [a]
+  + Utf8 [android/util/Log]
+  + Utf8 [append]
+  + Utf8 [b]
+  + Utf8 [c]
+  + Utf8 [com/theriddlebrothers/disruptor/ConfigureActivity]
+  + Utf8 [com/theriddlebrothers/disruptor/b]
+  + Utf8 [com/theriddlebrothers/disruptor/f]
+  + Utf8 [d]
+  + Utf8 [e]
+  + Utf8 [java/lang/StringBuilder]
+  + Utf8 [java/util/TimerTask]
+  + Utf8 [run]
+  + Utf8 [toString]
+
+Fields (count = 1):
+  + Field:        a Lcom/theriddlebrothers/disruptor/ConfigureActivity;
+    Access flags: 0x1010
+      = final synthetic com.theriddlebrothers.disruptor.ConfigureActivity a
+
+Methods (count = 3):
+  - Method:       <init>(Lcom/theriddlebrothers/disruptor/ConfigureActivity;)V
+    Access flags: 0x2
+      = private b(com.theriddlebrothers.disruptor.ConfigureActivity)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 10, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] putfield #10
+        + Fieldref [com/theriddlebrothers/disruptor/b.a Lcom/theriddlebrothers/disruptor/ConfigureActivity;]
+      [5] aload_0 v0
+      [6] invokespecial #26
+        + Methodref [java/util/TimerTask.<init> ()V]
+      [9] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       run()V
+    Access flags: 0x1
+      = public void run()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 131, locals = 3, stack = 5):
+      [0] aload_0 v0
+      [1] getfield #10
+        + Fieldref [com/theriddlebrothers/disruptor/b.a Lcom/theriddlebrothers/disruptor/ConfigureActivity;]
+      [4] invokestatic #12
+        + Methodref [com/theriddlebrothers/disruptor/ConfigureActivity.a (Lcom/theriddlebrothers/disruptor/ConfigureActivity;)Lcom/theriddlebrothers/disruptor/f;]
+      [7] invokevirtual #21
+        + Methodref [com/theriddlebrothers/disruptor/f.c ()D]
+      [10] dstore_1 v1
+      [11] aload_0 v0
+      [12] getfield #10
+        + Fieldref [com/theriddlebrothers/disruptor/b.a Lcom/theriddlebrothers/disruptor/ConfigureActivity;]
+      [15] invokestatic #15
+        + Methodref [com/theriddlebrothers/disruptor/ConfigureActivity.b (Lcom/theriddlebrothers/disruptor/ConfigureActivity;)I]
+      [18] pop
+      [19] aload_0 v0
+      [20] getfield #10
+        + Fieldref [com/theriddlebrothers/disruptor/b.a Lcom/theriddlebrothers/disruptor/ConfigureActivity;]
+      [23] invokestatic #17
+        + Methodref [com/theriddlebrothers/disruptor/ConfigureActivity.c (Lcom/theriddlebrothers/disruptor/ConfigureActivity;)I]
+      [26] bipush 10
+      [28] ificmple +11 (target=39)
+      [31] aload_0 v0
+      [32] getfield #10
+        + Fieldref [com/theriddlebrothers/disruptor/b.a Lcom/theriddlebrothers/disruptor/ConfigureActivity;]
+      [35] invokevirtual #14
+        + Methodref [com/theriddlebrothers/disruptor/ConfigureActivity.b ()V]
+      [38] return
+      [39] aload_0 v0
+      [40] getfield #10
+        + Fieldref [com/theriddlebrothers/disruptor/b.a Lcom/theriddlebrothers/disruptor/ConfigureActivity;]
+      [43] dload_1 v1
+      [44] invokestatic #13
+        + Methodref [com/theriddlebrothers/disruptor/ConfigureActivity.a (Lcom/theriddlebrothers/disruptor/ConfigureActivity;D)D]
+      [47] pop2
+      [48] aload_0 v0
+      [49] getfield #10
+        + Fieldref [com/theriddlebrothers/disruptor/b.a Lcom/theriddlebrothers/disruptor/ConfigureActivity;]
+      [52] aload_0 v0
+      [53] getfield #10
+        + Fieldref [com/theriddlebrothers/disruptor/b.a Lcom/theriddlebrothers/disruptor/ConfigureActivity;]
+      [56] invokestatic #18
+        + Methodref [com/theriddlebrothers/disruptor/ConfigureActivity.d (Lcom/theriddlebrothers/disruptor/ConfigureActivity;)D]
+      [59] dload_1 v1
+      [60] dadd
+      [61] aload_0 v0
+      [62] getfield #10
+        + Fieldref [com/theriddlebrothers/disruptor/b.a Lcom/theriddlebrothers/disruptor/ConfigureActivity;]
+      [65] invokestatic #17
+        + Methodref [com/theriddlebrothers/disruptor/ConfigureActivity.c (Lcom/theriddlebrothers/disruptor/ConfigureActivity;)I]
+      [68] i2d
+      [69] ddiv
+      [70] invokestatic #16
+        + Methodref [com/theriddlebrothers/disruptor/ConfigureActivity.b (Lcom/theriddlebrothers/disruptor/ConfigureActivity;D)D]
+      [73] pop2
+      [74] ldc #2
+        + String [ConfigureActivity]
+      [76] new #8
+        + Class [java/lang/StringBuilder]
+      [79] dup
+      [80] invokespecial #22
+        + Methodref [java/lang/StringBuilder.<init> ()V]
+      [83] ldc #3
+        + String [SAMPLE: ]
+      [85] invokevirtual #24
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [88] dload_1 v1
+      [89] invokevirtual #23
+        + Methodref [java/lang/StringBuilder.append (D)Ljava/lang/StringBuilder;]
+      [92] invokevirtual #25
+        + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+      [95] invokestatic #11
+        + Methodref [android/util/Log.d (Ljava/lang/String;Ljava/lang/String;)I]
+      [98] pop
+      [99] ldc #2
+        + String [ConfigureActivity]
+      [101] new #8
+        + Class [java/lang/StringBuilder]
+      [104] dup
+      [105] invokespecial #22
+        + Methodref [java/lang/StringBuilder.<init> ()V]
+      [108] ldc #1
+        + String [AVG: ]
+      [110] invokevirtual #24
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [113] aload_0 v0
+      [114] getfield #10
+        + Fieldref [com/theriddlebrothers/disruptor/b.a Lcom/theriddlebrothers/disruptor/ConfigureActivity;]
+      [117] invokestatic #19
+        + Methodref [com/theriddlebrothers/disruptor/ConfigureActivity.e (Lcom/theriddlebrothers/disruptor/ConfigureActivity;)D]
+      [120] invokevirtual #23
+        + Methodref [java/lang/StringBuilder.append (D)Ljava/lang/StringBuilder;]
+      [123] invokevirtual #25
+        + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+      [126] invokestatic #11
+        + Methodref [android/util/Log.d (Ljava/lang/String;Ljava/lang/String;)I]
+      [129] pop
+      [130] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Stack map table attribute (count = 1):
+        - [39] Var: ...[d], Stack: (empty)
+  - Method:       <init>(Lcom/theriddlebrothers/disruptor/ConfigureActivity;Lcom/theriddlebrothers/disruptor/a;)V
+    Access flags: 0x1000
+      = synthetic b(com.theriddlebrothers.disruptor.ConfigureActivity,com.theriddlebrothers.disruptor.a)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 6, locals = 3, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] invokespecial #20
+        + Methodref [com/theriddlebrothers/disruptor/b.<init> (Lcom/theriddlebrothers/disruptor/ConfigureActivity;)V]
+      [5] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: com/theriddlebrothers/disruptor/c
+  Superclass:    android/app/Activity
+  Major version: 0x32
+  Minor version: 0x0
+  Access flags:  0x21
+    = public class com.theriddlebrothers.disruptor.c extends android.app.Activity
+
+Interfaces (count = 0):
+
+Constant Pool (count = 100):
+  + Integer [2130903043]
+  + Integer [2131099653]
+  + Integer [2131230720]
+  + Integer [2131296264]
+  + Class [android/app/Activity]
+  + Class [android/app/AlertDialog]
+  + Class [android/app/AlertDialog$Builder]
+  + Class [android/view/LayoutInflater]
+  + Class [android/view/MenuInflater]
+  + Class [android/view/MenuItem]
+  + Class [android/view/View]
+  + Class [android/widget/Button]
+  + Class [com/theriddlebrothers/disruptor/c]
+  + Class [com/theriddlebrothers/disruptor/d]
+  + Class [com/theriddlebrothers/disruptor/e]
+  + Class [java/lang/System]
+  + Methodref [android/app/Activity.<init> ()V]
+  + Methodref [android/app/Activity.onOptionsItemSelected (Landroid/view/MenuItem;)Z]
+  + Methodref [android/app/AlertDialog.show ()V]
+  + Methodref [android/app/AlertDialog$Builder.<init> (Landroid/content/Context;)V]
+  + Methodref [android/app/AlertDialog$Builder.create ()Landroid/app/AlertDialog;]
+  + Methodref [android/app/AlertDialog$Builder.setNegativeButton (ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;]
+  + Methodref [android/app/AlertDialog$Builder.setView (Landroid/view/View;)Landroid/app/AlertDialog$Builder;]
+  + Methodref [android/view/LayoutInflater.inflate (ILandroid/view/ViewGroup;)Landroid/view/View;]
+  + Methodref [android/view/MenuInflater.inflate (ILandroid/view/Menu;)V]
+  + Methodref [android/view/View.findViewById (I)Landroid/view/View;]
+  + Methodref [android/widget/Button.setOnClickListener (Landroid/view/View$OnClickListener;)V]
+  + Methodref [com/theriddlebrothers/disruptor/c.a ()Landroid/app/AlertDialog;]
+  + Methodref [com/theriddlebrothers/disruptor/c.finish ()V]
+  + Methodref [com/theriddlebrothers/disruptor/c.getLayoutInflater ()Landroid/view/LayoutInflater;]
+  + Methodref [com/theriddlebrothers/disruptor/c.getMenuInflater ()Landroid/view/MenuInflater;]
+  + Methodref [com/theriddlebrothers/disruptor/d.<init> (Lcom/theriddlebrothers/disruptor/c;)V]
+  + Methodref [com/theriddlebrothers/disruptor/e.<init> (Lcom/theriddlebrothers/disruptor/c;)V]
+  + Methodref [java/lang/System.exit (I)V]
+  + InterfaceMethodref [android/view/MenuItem.getItemId ()I]
+  + NameAndType [<init> ()V]
+  + NameAndType [<init> (Landroid/content/Context;)V]
+  + NameAndType [<init> (Lcom/theriddlebrothers/disruptor/c;)V]
+  + NameAndType [a ()Landroid/app/AlertDialog;]
+  + NameAndType [create ()Landroid/app/AlertDialog;]
+  + NameAndType [exit (I)V]
+  + NameAndType [findViewById (I)Landroid/view/View;]
+  + NameAndType [finish ()V]
+  + NameAndType [getItemId ()I]
+  + NameAndType [getLayoutInflater ()Landroid/view/LayoutInflater;]
+  + NameAndType [getMenuInflater ()Landroid/view/MenuInflater;]
+  + NameAndType [inflate (ILandroid/view/Menu;)V]
+  + NameAndType [inflate (ILandroid/view/ViewGroup;)Landroid/view/View;]
+  + NameAndType [onOptionsItemSelected (Landroid/view/MenuItem;)Z]
+  + NameAndType [setNegativeButton (ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;]
+  + NameAndType [setOnClickListener (Landroid/view/View$OnClickListener;)V]
+  + NameAndType [setView (Landroid/view/View;)Landroid/app/AlertDialog$Builder;]
+  + NameAndType [show ()V]
+  + Utf8 [()I]
+  + Utf8 [()Landroid/app/AlertDialog;]
+  + Utf8 [()Landroid/view/LayoutInflater;]
+  + Utf8 [()Landroid/view/MenuInflater;]
+  + Utf8 [()V]
+  + Utf8 [(I)Landroid/view/View;]
+  + Utf8 [(I)V]
+  + Utf8 [(ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;]
+  + Utf8 [(ILandroid/view/Menu;)V]
+  + Utf8 [(ILandroid/view/ViewGroup;)Landroid/view/View;]
+  + Utf8 [(Landroid/content/Context;)V]
+  + Utf8 [(Landroid/view/Menu;)Z]
+  + Utf8 [(Landroid/view/MenuItem;)Z]
+  + Utf8 [(Landroid/view/View$OnClickListener;)V]
+  + Utf8 [(Landroid/view/View;)Landroid/app/AlertDialog$Builder;]
+  + Utf8 [(Lcom/theriddlebrothers/disruptor/c;)V]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [StackMapTable]
+  + Utf8 [a]
+  + Utf8 [android/app/Activity]
+  + Utf8 [android/app/AlertDialog]
+  + Utf8 [android/app/AlertDialog$Builder]
+  + Utf8 [android/view/LayoutInflater]
+  + Utf8 [android/view/MenuInflater]
+  + Utf8 [android/view/MenuItem]
+  + Utf8 [android/view/View]
+  + Utf8 [android/widget/Button]
+  + Utf8 [com/theriddlebrothers/disruptor/c]
+  + Utf8 [com/theriddlebrothers/disruptor/d]
+  + Utf8 [com/theriddlebrothers/disruptor/e]
+  + Utf8 [create]
+  + Utf8 [exit]
+  + Utf8 [findViewById]
+  + Utf8 [finish]
+  + Utf8 [getItemId]
+  + Utf8 [getLayoutInflater]
+  + Utf8 [getMenuInflater]
+  + Utf8 [inflate]
+  + Utf8 [java/lang/System]
+  + Utf8 [onCreateOptionsMenu]
+  + Utf8 [onOptionsItemSelected]
+  + Utf8 [setNegativeButton]
+  + Utf8 [setOnClickListener]
+  + Utf8 [setView]
+  + Utf8 [show]
+
+Fields (count = 0):
+
+Methods (count = 4):
+  - Method:       <init>()V
+    Access flags: 0x1
+      = public c()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] invokespecial #17
+        + Methodref [android/app/Activity.<init> ()V]
+      [4] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onCreateOptionsMenu(Landroid/view/Menu;)Z
+    Access flags: 0x1
+      = public boolean onCreateOptionsMenu(android.view.Menu)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 12, locals = 2, stack = 3):
+      [0] aload_0 v0
+      [1] invokevirtual #31
+        + Methodref [com/theriddlebrothers/disruptor/c.getMenuInflater ()Landroid/view/MenuInflater;]
+      [4] ldc #3
+        + Integer [2131230720]
+      [6] aload_1 v1
+      [7] invokevirtual #25
+        + Methodref [android/view/MenuInflater.inflate (ILandroid/view/Menu;)V]
+      [10] iconst_1
+      [11] ireturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onOptionsItemSelected(Landroid/view/MenuItem;)Z
+    Access flags: 0x1
+      = public boolean onOptionsItemSelected(android.view.MenuItem)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 59, locals = 3, stack = 2):
+      [0] aload_1 v1
+      [1] invokeinterface #35
+        + InterfaceMethodref [android/view/MenuItem.getItemId ()I]
+      [6] lookupswitch (2 offsets, default=47) (target=53)
+        2131296265: offset = 36, target = 42
+        2131296266: offset = 26, target = 32
+        default: offset = 47, target = 53
+      [32] aload_0 v0
+      [33] invokevirtual #29
+        + Methodref [com/theriddlebrothers/disruptor/c.finish ()V]
+      [36] iconst_0
+      [37] invokestatic #34
+        + Methodref [java/lang/System.exit (I)V]
+      [40] iconst_1
+      [41] ireturn
+      [42] aload_0 v0
+      [43] invokespecial #28
+        + Methodref [com/theriddlebrothers/disruptor/c.a ()Landroid/app/AlertDialog;]
+      [46] astore_2 v2
+      [47] aload_2 v2
+      [48] invokevirtual #19
+        + Methodref [android/app/AlertDialog.show ()V]
+      [51] iconst_1
+      [52] ireturn
+      [53] aload_0 v0
+      [54] aload_1 v1
+      [55] invokespecial #18
+        + Methodref [android/app/Activity.onOptionsItemSelected (Landroid/view/MenuItem;)Z]
+      [58] ireturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Stack map table attribute (count = 3):
+        - [32] Var: ..., Stack: (empty)
+        - [42] Var: ..., Stack: (empty)
+        - [53] Var: ..., Stack: (empty)
+  + Method:       a()Landroid/app/AlertDialog;
+    Access flags: 0x2
+      = private android.app.AlertDialog a()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 70, locals = 5, stack = 5):
+      [0] aload_0 v0
+      [1] invokevirtual #30
+        + Methodref [com/theriddlebrothers/disruptor/c.getLayoutInflater ()Landroid/view/LayoutInflater;]
+      [4] astore_1 v1
+      [5] new #7
+        + Class [android/app/AlertDialog$Builder]
+      [8] dup
+      [9] aload_0 v0
+      [10] invokespecial #20
+        + Methodref [android/app/AlertDialog$Builder.<init> (Landroid/content/Context;)V]
+      [13] astore_2 v2
+      [14] aload_1 v1
+      [15] ldc #1
+        + Integer [2130903043]
+      [17] aconst_null
+      [18] invokevirtual #24
+        + Methodref [android/view/LayoutInflater.inflate (ILandroid/view/ViewGroup;)Landroid/view/View;]
+      [21] astore_3 v3
+      [22] aload_2 v2
+      [23] aload_3 v3
+      [24] invokevirtual #23
+        + Methodref [android/app/AlertDialog$Builder.setView (Landroid/view/View;)Landroid/app/AlertDialog$Builder;]
+      [27] ldc #2
+        + Integer [2131099653]
+      [29] new #14
+        + Class [com/theriddlebrothers/disruptor/d]
+      [32] dup
+      [33] aload_0 v0
+      [34] invokespecial #32
+        + Methodref [com/theriddlebrothers/disruptor/d.<init> (Lcom/theriddlebrothers/disruptor/c;)V]
+      [37] invokevirtual #22
+        + Methodref [android/app/AlertDialog$Builder.setNegativeButton (ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;]
+      [40] pop
+      [41] aload_3 v3
+      [42] ldc #4
+        + Integer [2131296264]
+      [44] invokevirtual #26
+        + Methodref [android/view/View.findViewById (I)Landroid/view/View;]
+      [47] checkcast #12
+        + Class [android/widget/Button]
+      [50] astore v4
+      [52] aload v4
+      [54] new #15
+        + Class [com/theriddlebrothers/disruptor/e]
+      [57] dup
+      [58] aload_0 v0
+      [59] invokespecial #33
+        + Methodref [com/theriddlebrothers/disruptor/e.<init> (Lcom/theriddlebrothers/disruptor/c;)V]
+      [62] invokevirtual #27
+        + Methodref [android/widget/Button.setOnClickListener (Landroid/view/View$OnClickListener;)V]
+      [65] aload_2 v2
+      [66] invokevirtual #21
+        + Methodref [android/app/AlertDialog$Builder.create ()Landroid/app/AlertDialog;]
+      [69] areturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: com/theriddlebrothers/disruptor/d
+  Superclass:    java/lang/Object
+  Major version: 0x32
+  Minor version: 0x0
+  Access flags:  0x20
+    = class com.theriddlebrothers.disruptor.d extends java.lang.Object
+
+Interfaces (count = 1):
+  + Class [android/content/DialogInterface$OnClickListener]
+
+Constant Pool (count = 24):
+  + Class [android/content/DialogInterface]
+  + Class [android/content/DialogInterface$OnClickListener]
+  + Class [com/theriddlebrothers/disruptor/d]
+  + Class [java/lang/Object]
+  + Fieldref [com/theriddlebrothers/disruptor/d.a Lcom/theriddlebrothers/disruptor/c;]
+  + Methodref [java/lang/Object.<init> ()V]
+  + InterfaceMethodref [android/content/DialogInterface.cancel ()V]
+  + NameAndType [<init> ()V]
+  + NameAndType [a Lcom/theriddlebrothers/disruptor/c;]
+  + NameAndType [cancel ()V]
+  + Utf8 [()V]
+  + Utf8 [(Landroid/content/DialogInterface;I)V]
+  + Utf8 [(Lcom/theriddlebrothers/disruptor/c;)V]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [Lcom/theriddlebrothers/disruptor/c;]
+  + Utf8 [a]
+  + Utf8 [android/content/DialogInterface]
+  + Utf8 [android/content/DialogInterface$OnClickListener]
+  + Utf8 [cancel]
+  + Utf8 [com/theriddlebrothers/disruptor/d]
+  + Utf8 [java/lang/Object]
+  + Utf8 [onClick]
+
+Fields (count = 1):
+  + Field:        a Lcom/theriddlebrothers/disruptor/c;
+    Access flags: 0x1010
+      = final synthetic com.theriddlebrothers.disruptor.c a
+
+Methods (count = 2):
+  - Method:       <init>(Lcom/theriddlebrothers/disruptor/c;)V
+    Access flags: 0x0
+      = d(com.theriddlebrothers.disruptor.c)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 10, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] putfield #5
+        + Fieldref [com/theriddlebrothers/disruptor/d.a Lcom/theriddlebrothers/disruptor/c;]
+      [5] aload_0 v0
+      [6] invokespecial #6
+        + Methodref [java/lang/Object.<init> ()V]
+      [9] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onClick(Landroid/content/DialogInterface;I)V
+    Access flags: 0x1
+      = public void onClick(android.content.DialogInterface,int)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 7, locals = 3, stack = 1):
+      [0] aload_1 v1
+      [1] invokeinterface #7
+        + InterfaceMethodref [android/content/DialogInterface.cancel ()V]
+      [6] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: com/theriddlebrothers/disruptor/e
+  Superclass:    java/lang/Object
+  Major version: 0x32
+  Minor version: 0x0
+  Access flags:  0x20
+    = class com.theriddlebrothers.disruptor.e extends java.lang.Object
+
+Interfaces (count = 1):
+  + Class [android/view/View$OnClickListener]
+
+Constant Pool (count = 43):
+  + Integer [2131099659]
+  + String [android.intent.action.VIEW]
+  + Class [android/content/Intent]
+  + Class [android/net/Uri]
+  + Class [android/view/View$OnClickListener]
+  + Class [com/theriddlebrothers/disruptor/c]
+  + Class [com/theriddlebrothers/disruptor/e]
+  + Class [java/lang/Object]
+  + Fieldref [com/theriddlebrothers/disruptor/e.a Lcom/theriddlebrothers/disruptor/c;]
+  + Methodref [android/content/Intent.<init> (Ljava/lang/String;Landroid/net/Uri;)V]
+  + Methodref [android/net/Uri.parse (Ljava/lang/String;)Landroid/net/Uri;]
+  + Methodref [com/theriddlebrothers/disruptor/c.getString (I)Ljava/lang/String;]
+  + Methodref [com/theriddlebrothers/disruptor/c.startActivity (Landroid/content/Intent;)V]
+  + Methodref [java/lang/Object.<init> ()V]
+  + NameAndType [<init> ()V]
+  + NameAndType [<init> (Ljava/lang/String;Landroid/net/Uri;)V]
+  + NameAndType [a Lcom/theriddlebrothers/disruptor/c;]
+  + NameAndType [getString (I)Ljava/lang/String;]
+  + NameAndType [parse (Ljava/lang/String;)Landroid/net/Uri;]
+  + NameAndType [startActivity (Landroid/content/Intent;)V]
+  + Utf8 [()V]
+  + Utf8 [(I)Ljava/lang/String;]
+  + Utf8 [(Landroid/content/Intent;)V]
+  + Utf8 [(Landroid/view/View;)V]
+  + Utf8 [(Lcom/theriddlebrothers/disruptor/c;)V]
+  + Utf8 [(Ljava/lang/String;)Landroid/net/Uri;]
+  + Utf8 [(Ljava/lang/String;Landroid/net/Uri;)V]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [Lcom/theriddlebrothers/disruptor/c;]
+  + Utf8 [a]
+  + Utf8 [android.intent.action.VIEW]
+  + Utf8 [android/content/Intent]
+  + Utf8 [android/net/Uri]
+  + Utf8 [android/view/View$OnClickListener]
+  + Utf8 [com/theriddlebrothers/disruptor/c]
+  + Utf8 [com/theriddlebrothers/disruptor/e]
+  + Utf8 [getString]
+  + Utf8 [java/lang/Object]
+  + Utf8 [onClick]
+  + Utf8 [parse]
+  + Utf8 [startActivity]
+
+Fields (count = 1):
+  + Field:        a Lcom/theriddlebrothers/disruptor/c;
+    Access flags: 0x1010
+      = final synthetic com.theriddlebrothers.disruptor.c a
+
+Methods (count = 2):
+  - Method:       <init>(Lcom/theriddlebrothers/disruptor/c;)V
+    Access flags: 0x0
+      = e(com.theriddlebrothers.disruptor.c)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 10, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] putfield #9
+        + Fieldref [com/theriddlebrothers/disruptor/e.a Lcom/theriddlebrothers/disruptor/c;]
+      [5] aload_0 v0
+      [6] invokespecial #14
+        + Methodref [java/lang/Object.<init> ()V]
+      [9] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onClick(Landroid/view/View;)V
+    Access flags: 0x1
+      = public void onClick(android.view.View)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 31, locals = 3, stack = 5):
+      [0] new #3
+        + Class [android/content/Intent]
+      [3] dup
+      [4] ldc #2
+        + String [android.intent.action.VIEW]
+      [6] aload_0 v0
+      [7] getfield #9
+        + Fieldref [com/theriddlebrothers/disruptor/e.a Lcom/theriddlebrothers/disruptor/c;]
+      [10] ldc #1
+        + Integer [2131099659]
+      [12] invokevirtual #12
+        + Methodref [com/theriddlebrothers/disruptor/c.getString (I)Ljava/lang/String;]
+      [15] invokestatic #11
+        + Methodref [android/net/Uri.parse (Ljava/lang/String;)Landroid/net/Uri;]
+      [18] invokespecial #10
+        + Methodref [android/content/Intent.<init> (Ljava/lang/String;Landroid/net/Uri;)V]
+      [21] astore_2 v2
+      [22] aload_0 v0
+      [23] getfield #9
+        + Fieldref [com/theriddlebrothers/disruptor/e.a Lcom/theriddlebrothers/disruptor/c;]
+      [26] aload_2 v2
+      [27] invokevirtual #13
+        + Methodref [com/theriddlebrothers/disruptor/c.startActivity (Landroid/content/Intent;)V]
+      [30] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: com/theriddlebrothers/disruptor/f
+  Superclass:    java/lang/Object
+  Major version: 0x32
+  Minor version: 0x0
+  Access flags:  0x21
+    = public class com.theriddlebrothers.disruptor.f extends java.lang.Object
+
+Interfaces (count = 0):
+
+Constant Pool (count = 73):
+  + String [/dev/null]
+  + String [Error in preparing recorder.]
+  + String [SoundMeter]
+  + Class [android/media/MediaRecorder]
+  + Class [android/util/Log]
+  + Class [com/theriddlebrothers/disruptor/f]
+  + Class [java/lang/Exception]
+  + Class [java/lang/Object]
+  + Double [2700.0]
+  + Fieldref [com/theriddlebrothers/disruptor/f.a Landroid/media/MediaRecorder;]
+  + Fieldref [com/theriddlebrothers/disruptor/f.b D]
+  + Methodref [android/media/MediaRecorder.<init> ()V]
+  + Methodref [android/media/MediaRecorder.getMaxAmplitude ()I]
+  + Methodref [android/media/MediaRecorder.prepare ()V]
+  + Methodref [android/media/MediaRecorder.release ()V]
+  + Methodref [android/media/MediaRecorder.setAudioEncoder (I)V]
+  + Methodref [android/media/MediaRecorder.setAudioSource (I)V]
+  + Methodref [android/media/MediaRecorder.setOutputFile (Ljava/lang/String;)V]
+  + Methodref [android/media/MediaRecorder.setOutputFormat (I)V]
+  + Methodref [android/media/MediaRecorder.start ()V]
+  + Methodref [android/media/MediaRecorder.stop ()V]
+  + Methodref [android/util/Log.d (Ljava/lang/String;Ljava/lang/String;)I]
+  + Methodref [java/lang/Exception.printStackTrace ()V]
+  + Methodref [java/lang/Object.<init> ()V]
+  + NameAndType [<init> ()V]
+  + NameAndType [a Landroid/media/MediaRecorder;]
+  + NameAndType [b D]
+  + NameAndType [d (Ljava/lang/String;Ljava/lang/String;)I]
+  + NameAndType [getMaxAmplitude ()I]
+  + NameAndType [prepare ()V]
+  + NameAndType [printStackTrace ()V]
+  + NameAndType [release ()V]
+  + NameAndType [setAudioEncoder (I)V]
+  + NameAndType [setAudioSource (I)V]
+  + NameAndType [setOutputFile (Ljava/lang/String;)V]
+  + NameAndType [setOutputFormat (I)V]
+  + NameAndType [start ()V]
+  + NameAndType [stop ()V]
+  + Utf8 [()D]
+  + Utf8 [()I]
+  + Utf8 [()V]
+  + Utf8 [(I)V]
+  + Utf8 [(Ljava/lang/String;)V]
+  + Utf8 [(Ljava/lang/String;Ljava/lang/String;)I]
+  + Utf8 [/dev/null]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [D]
+  + Utf8 [Error in preparing recorder.]
+  + Utf8 [Landroid/media/MediaRecorder;]
+  + Utf8 [SoundMeter]
+  + Utf8 [StackMapTable]
+  + Utf8 [a]
+  + Utf8 [android/media/MediaRecorder]
+  + Utf8 [android/util/Log]
+  + Utf8 [b]
+  + Utf8 [c]
+  + Utf8 [com/theriddlebrothers/disruptor/f]
+  + Utf8 [d]
+  + Utf8 [getMaxAmplitude]
+  + Utf8 [java/lang/Exception]
+  + Utf8 [java/lang/Object]
+  + Utf8 [prepare]
+  + Utf8 [printStackTrace]
+  + Utf8 [release]
+  + Utf8 [setAudioEncoder]
+  + Utf8 [setAudioSource]
+  + Utf8 [setOutputFile]
+  + Utf8 [setOutputFormat]
+  + Utf8 [start]
+  + Utf8 [stop]
+
+Fields (count = 2):
+  + Field:        a Landroid/media/MediaRecorder;
+    Access flags: 0x2
+      = private android.media.MediaRecorder a
+  + Field:        b D
+    Access flags: 0x2
+      = private double b
+
+Methods (count = 4):
+  - Method:       <init>()V
+    Access flags: 0x1
+      = public f()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 15, locals = 1, stack = 3):
+      [0] aload_0 v0
+      [1] invokespecial #25
+        + Methodref [java/lang/Object.<init> ()V]
+      [4] aload_0 v0
+      [5] aconst_null
+      [6] putfield #11
+        + Fieldref [com/theriddlebrothers/disruptor/f.a Landroid/media/MediaRecorder;]
+      [9] aload_0 v0
+      [10] dconst_0
+      [11] putfield #12
+        + Fieldref [com/theriddlebrothers/disruptor/f.b D]
+      [14] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       a()V
+    Access flags: 0x1
+      = public void a()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 87, locals = 2, stack = 3):
+      [0] aload_0 v0
+      [1] getfield #11
+        + Fieldref [com/theriddlebrothers/disruptor/f.a Landroid/media/MediaRecorder;]
+      [4] ifnonnull +82 (target=86)
+      [7] aload_0 v0
+      [8] new #4
+        + Class [android/media/MediaRecorder]
+      [11] dup
+      [12] invokespecial #13
+        + Methodref [android/media/MediaRecorder.<init> ()V]
+      [15] putfield #11
+        + Fieldref [com/theriddlebrothers/disruptor/f.a Landroid/media/MediaRecorder;]
+      [18] aload_0 v0
+      [19] getfield #11
+        + Fieldref [com/theriddlebrothers/disruptor/f.a Landroid/media/MediaRecorder;]
+      [22] iconst_1
+      [23] invokevirtual #18
+        + Methodref [android/media/MediaRecorder.setAudioSource (I)V]
+      [26] aload_0 v0
+      [27] getfield #11
+        + Fieldref [com/theriddlebrothers/disruptor/f.a Landroid/media/MediaRecorder;]
+      [30] iconst_1
+      [31] invokevirtual #20
+        + Methodref [android/media/MediaRecorder.setOutputFormat (I)V]
+      [34] aload_0 v0
+      [35] getfield #11
+        + Fieldref [com/theriddlebrothers/disruptor/f.a Landroid/media/MediaRecorder;]
+      [38] iconst_1
+      [39] invokevirtual #17
+        + Methodref [android/media/MediaRecorder.setAudioEncoder (I)V]
+      [42] aload_0 v0
+      [43] getfield #11
+        + Fieldref [com/theriddlebrothers/disruptor/f.a Landroid/media/MediaRecorder;]
+      [46] ldc #1
+        + String [/dev/null]
+      [48] invokevirtual #19
+        + Methodref [android/media/MediaRecorder.setOutputFile (Ljava/lang/String;)V]
+      [51] aload_0 v0
+      [52] getfield #11
+        + Fieldref [com/theriddlebrothers/disruptor/f.a Landroid/media/MediaRecorder;]
+      [55] invokevirtual #15
+        + Methodref [android/media/MediaRecorder.prepare ()V]
+      [58] goto +16 (target=74)
+      [61] astore_1 v1
+      [62] ldc #3
+        + String [SoundMeter]
+      [64] ldc #2
+        + String [Error in preparing recorder.]
+      [66] invokestatic #23
+        + Methodref [android/util/Log.d (Ljava/lang/String;Ljava/lang/String;)I]
+      [69] pop
+      [70] aload_1 v1
+      [71] invokevirtual #24
+        + Methodref [java/lang/Exception.printStackTrace ()V]
+      [74] aload_0 v0
+      [75] getfield #11
+        + Fieldref [com/theriddlebrothers/disruptor/f.a Landroid/media/MediaRecorder;]
+      [78] invokevirtual #21
+        + Methodref [android/media/MediaRecorder.start ()V]
+      [81] aload_0 v0
+      [82] dconst_0
+      [83] putfield #12
+        + Fieldref [com/theriddlebrothers/disruptor/f.b D]
+      [86] return
+      Code attribute exceptions (count = 1):
+      - ExceptionInfo (51 -> 58: 61):
+      + Class [java/lang/Exception]
+      Code attribute attributes (attribute count = 1):
+      + Stack map table attribute (count = 3):
+        - [61] Var: ..., Stack: [a:java/lang/Exception]
+        - [74] Var: ..., Stack: (empty)
+        - [86] Var: ..., Stack: (empty)
+  + Method:       b()V
+    Access flags: 0x1
+      = public void b()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 27, locals = 1, stack = 2):
+      [0] aload_0 v0
+      [1] getfield #11
+        + Fieldref [com/theriddlebrothers/disruptor/f.a Landroid/media/MediaRecorder;]
+      [4] ifnull +22 (target=26)
+      [7] aload_0 v0
+      [8] getfield #11
+        + Fieldref [com/theriddlebrothers/disruptor/f.a Landroid/media/MediaRecorder;]
+      [11] invokevirtual #22
+        + Methodref [android/media/MediaRecorder.stop ()V]
+      [14] aload_0 v0
+      [15] getfield #11
+        + Fieldref [com/theriddlebrothers/disruptor/f.a Landroid/media/MediaRecorder;]
+      [18] invokevirtual #16
+        + Methodref [android/media/MediaRecorder.release ()V]
+      [21] aload_0 v0
+      [22] aconst_null
+      [23] putfield #11
+        + Fieldref [com/theriddlebrothers/disruptor/f.a Landroid/media/MediaRecorder;]
+      [26] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Stack map table attribute (count = 1):
+        - [26] Var: ..., Stack: (empty)
+  + Method:       c()D
+    Access flags: 0x1
+      = public double c()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 22, locals = 1, stack = 4):
+      [0] aload_0 v0
+      [1] getfield #11
+        + Fieldref [com/theriddlebrothers/disruptor/f.a Landroid/media/MediaRecorder;]
+      [4] ifnull +16 (target=20)
+      [7] aload_0 v0
+      [8] getfield #11
+        + Fieldref [com/theriddlebrothers/disruptor/f.a Landroid/media/MediaRecorder;]
+      [11] invokevirtual #14
+        + Methodref [android/media/MediaRecorder.getMaxAmplitude ()I]
+      [14] i2d
+      [15] ldc2_w #9
+        + Double [2700.0]
+      [18] ddiv
+      [19] dreturn
+      [20] dconst_0
+      [21] dreturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Stack map table attribute (count = 1):
+        - [20] Var: ..., Stack: (empty)
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: com/theriddlebrothers/disruptor/SoundPlayerActivity
+  Superclass:    com/theriddlebrothers/disruptor/c
+  Major version: 0x32
+  Minor version: 0x0
+  Access flags:  0x21
+    = public class com.theriddlebrothers.disruptor.SoundPlayerActivity extends com.theriddlebrothers.disruptor.c
+
+Interfaces (count = 0):
+
+Constant Pool (count = 178):
+  + Integer [10]
+  + Integer [2130903041]
+  + Integer [2130968576]
+  + Integer [2131296259]
+  + Integer [2131296261]
+  + Integer [2131296262]
+  + String [Disruptor]
+  + String [Playing sound...]
+  + String [Stopping sound...]
+  + String [defaultThreshold]
+  + Class [android/content/Intent]
+  + Class [android/media/MediaPlayer]
+  + Class [android/util/Log]
+  + Class [android/widget/Button]
+  + Class [android/widget/SeekBar]
+  + Class [android/widget/TextView]
+  + Class [com/theriddlebrothers/disruptor/SoundPlayerActivity]
+  + Class [com/theriddlebrothers/disruptor/c]
+  + Class [com/theriddlebrothers/disruptor/f]
+  + Class [com/theriddlebrothers/disruptor/g]
+  + Class [com/theriddlebrothers/disruptor/h]
+  + Class [com/theriddlebrothers/disruptor/i]
+  + Class [java/lang/Integer]
+  + Class [java/lang/Math]
+  + Class [java/util/Timer]
+  + Long [100]
+  + Double [10.0]
+  + Double [20.0]
+  + Fieldref [com/theriddlebrothers/disruptor/SoundPlayerActivity.a Landroid/media/MediaPlayer;]
+  + Fieldref [com/theriddlebrothers/disruptor/SoundPlayerActivity.b Z]
+  + Fieldref [com/theriddlebrothers/disruptor/SoundPlayerActivity.c Z]
+  + Fieldref [com/theriddlebrothers/disruptor/SoundPlayerActivity.d Ljava/lang/String;]
+  + Fieldref [com/theriddlebrothers/disruptor/SoundPlayerActivity.e Lcom/theriddlebrothers/disruptor/f;]
+  + Fieldref [com/theriddlebrothers/disruptor/SoundPlayerActivity.f D]
+  + Fieldref [com/theriddlebrothers/disruptor/SoundPlayerActivity.g I]
+  + Fieldref [com/theriddlebrothers/disruptor/SoundPlayerActivity.h D]
+  + Methodref [android/content/Intent.getDoubleExtra (Ljava/lang/String;D)D]
+  + Methodref [android/media/MediaPlayer.create (Landroid/content/Context;I)Landroid/media/MediaPlayer;]
+  + Methodref [android/media/MediaPlayer.pause ()V]
+  + Methodref [android/media/MediaPlayer.setLooping (Z)V]
+  + Methodref [android/media/MediaPlayer.start ()V]
+  + Methodref [android/util/Log.d (Ljava/lang/String;Ljava/lang/String;)I]
+  + Methodref [android/widget/Button.setOnTouchListener (Landroid/view/View$OnTouchListener;)V]
+  + Methodref [android/widget/SeekBar.setOnSeekBarChangeListener (Landroid/widget/SeekBar$OnSeekBarChangeListener;)V]
+  + Methodref [android/widget/SeekBar.setProgress (I)V]
+  + Methodref [android/widget/TextView.setText (Ljava/lang/CharSequence;)V]
+  + Methodref [com/theriddlebrothers/disruptor/SoundPlayerActivity.a (I)D]
+  + Methodref [com/theriddlebrothers/disruptor/SoundPlayerActivity.b ()V]
+  + Methodref [com/theriddlebrothers/disruptor/SoundPlayerActivity.c ()V]
+  + Methodref [com/theriddlebrothers/disruptor/SoundPlayerActivity.findViewById (I)Landroid/view/View;]
+  + Methodref [com/theriddlebrothers/disruptor/SoundPlayerActivity.getIntent ()Landroid/content/Intent;]
+  + Methodref [com/theriddlebrothers/disruptor/SoundPlayerActivity.setContentView (I)V]
+  + Methodref [com/theriddlebrothers/disruptor/SoundPlayerActivity.setVolumeControlStream (I)V]
+  + Methodref [com/theriddlebrothers/disruptor/c.<init> ()V]
+  + Methodref [com/theriddlebrothers/disruptor/c.onCreate (Landroid/os/Bundle;)V]
+  + Methodref [com/theriddlebrothers/disruptor/f.<init> ()V]
+  + Methodref [com/theriddlebrothers/disruptor/f.a ()V]
+  + Methodref [com/theriddlebrothers/disruptor/g.<init> (Lcom/theriddlebrothers/disruptor/SoundPlayerActivity;)V]
+  + Methodref [com/theriddlebrothers/disruptor/h.<init> (Lcom/theriddlebrothers/disruptor/SoundPlayerActivity;)V]
+  + Methodref [com/theriddlebrothers/disruptor/i.<init> (Lcom/theriddlebrothers/disruptor/SoundPlayerActivity;Lcom/theriddlebrothers/disruptor/g;)V]
+  + Methodref [java/lang/Integer.toString (I)Ljava/lang/String;]
+  + Methodref [java/lang/Math.floor (D)D]
+  + Methodref [java/util/Timer.<init> ()V]
+  + Methodref [java/util/Timer.scheduleAtFixedRate (Ljava/util/TimerTask;JJ)V]
+  + NameAndType [<init> ()V]
+  + NameAndType [<init> (Lcom/theriddlebrothers/disruptor/SoundPlayerActivity;)V]
+  + NameAndType [<init> (Lcom/theriddlebrothers/disruptor/SoundPlayerActivity;Lcom/theriddlebrothers/disruptor/g;)V]
+  + NameAndType [a ()V]
+  + NameAndType [a (I)D]
+  + NameAndType [a Landroid/media/MediaPlayer;]
+  + NameAndType [b ()V]
+  + NameAndType [b Z]
+  + NameAndType [c ()V]
+  + NameAndType [c Z]
+  + NameAndType [create (Landroid/content/Context;I)Landroid/media/MediaPlayer;]
+  + NameAndType [d (Ljava/lang/String;Ljava/lang/String;)I]
+  + NameAndType [d Ljava/lang/String;]
+  + NameAndType [e Lcom/theriddlebrothers/disruptor/f;]
+  + NameAndType [f D]
+  + NameAndType [findViewById (I)Landroid/view/View;]
+  + NameAndType [floor (D)D]
+  + NameAndType [g I]
+  + NameAndType [getDoubleExtra (Ljava/lang/String;D)D]
+  + NameAndType [getIntent ()Landroid/content/Intent;]
+  + NameAndType [h D]
+  + NameAndType [onCreate (Landroid/os/Bundle;)V]
+  + NameAndType [pause ()V]
+  + NameAndType [scheduleAtFixedRate (Ljava/util/TimerTask;JJ)V]
+  + NameAndType [setContentView (I)V]
+  + NameAndType [setLooping (Z)V]
+  + NameAndType [setOnSeekBarChangeListener (Landroid/widget/SeekBar$OnSeekBarChangeListener;)V]
+  + NameAndType [setOnTouchListener (Landroid/view/View$OnTouchListener;)V]
+  + NameAndType [setProgress (I)V]
+  + NameAndType [setText (Ljava/lang/CharSequence;)V]
+  + NameAndType [setVolumeControlStream (I)V]
+  + NameAndType [start ()V]
+  + NameAndType [toString (I)Ljava/lang/String;]
+  + Utf8 [()Landroid/content/Intent;]
+  + Utf8 [()V]
+  + Utf8 [(D)D]
+  + Utf8 [(I)D]
+  + Utf8 [(I)Landroid/view/View;]
+  + Utf8 [(I)Ljava/lang/String;]
+  + Utf8 [(I)V]
+  + Utf8 [(Landroid/content/Context;I)Landroid/media/MediaPlayer;]
+  + Utf8 [(Landroid/os/Bundle;)V]
+  + Utf8 [(Landroid/view/View$OnTouchListener;)V]
+  + Utf8 [(Landroid/widget/SeekBar$OnSeekBarChangeListener;)V]
+  + Utf8 [(Lcom/theriddlebrothers/disruptor/SoundPlayerActivity;)D]
+  + Utf8 [(Lcom/theriddlebrothers/disruptor/SoundPlayerActivity;)Lcom/theriddlebrothers/disruptor/f;]
+  + Utf8 [(Lcom/theriddlebrothers/disruptor/SoundPlayerActivity;)V]
+  + Utf8 [(Lcom/theriddlebrothers/disruptor/SoundPlayerActivity;)Z]
+  + Utf8 [(Lcom/theriddlebrothers/disruptor/SoundPlayerActivity;D)D]
+  + Utf8 [(Lcom/theriddlebrothers/disruptor/SoundPlayerActivity;I)D]
+  + Utf8 [(Lcom/theriddlebrothers/disruptor/SoundPlayerActivity;Lcom/theriddlebrothers/disruptor/g;)V]
+  + Utf8 [(Ljava/lang/CharSequence;)V]
+  + Utf8 [(Ljava/lang/String;D)D]
+  + Utf8 [(Ljava/lang/String;Ljava/lang/String;)I]
+  + Utf8 [(Ljava/util/TimerTask;JJ)V]
+  + Utf8 [(Z)V]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [ConstantValue]
+  + Utf8 [D]
+  + Utf8 [Disruptor]
+  + Utf8 [I]
+  + Utf8 [Landroid/media/MediaPlayer;]
+  + Utf8 [Lcom/theriddlebrothers/disruptor/f;]
+  + Utf8 [Ljava/lang/String;]
+  + Utf8 [Playing sound...]
+  + Utf8 [StackMapTable]
+  + Utf8 [Stopping sound...]
+  + Utf8 [Z]
+  + Utf8 [a]
+  + Utf8 [android/content/Intent]
+  + Utf8 [android/media/MediaPlayer]
+  + Utf8 [android/util/Log]
+  + Utf8 [android/widget/Button]
+  + Utf8 [android/widget/SeekBar]
+  + Utf8 [android/widget/TextView]
+  + Utf8 [b]
+  + Utf8 [c]
+  + Utf8 [com/theriddlebrothers/disruptor/SoundPlayerActivity]
+  + Utf8 [com/theriddlebrothers/disruptor/c]
+  + Utf8 [com/theriddlebrothers/disruptor/f]
+  + Utf8 [com/theriddlebrothers/disruptor/g]
+  + Utf8 [com/theriddlebrothers/disruptor/h]
+  + Utf8 [com/theriddlebrothers/disruptor/i]
+  + Utf8 [create]
+  + Utf8 [d]
+  + Utf8 [defaultThreshold]
+  + Utf8 [e]
+  + Utf8 [f]
+  + Utf8 [findViewById]
+  + Utf8 [floor]
+  + Utf8 [g]
+  + Utf8 [getDoubleExtra]
+  + Utf8 [getIntent]
+  + Utf8 [h]
+  + Utf8 [java/lang/Integer]
+  + Utf8 [java/lang/Math]
+  + Utf8 [java/util/Timer]
+  + Utf8 [onCreate]
+  + Utf8 [pause]
+  + Utf8 [scheduleAtFixedRate]
+  + Utf8 [setContentView]
+  + Utf8 [setLooping]
+  + Utf8 [setOnSeekBarChangeListener]
+  + Utf8 [setOnTouchListener]
+  + Utf8 [setProgress]
+  + Utf8 [setText]
+  + Utf8 [setVolumeControlStream]
+  + Utf8 [start]
+  + Utf8 [toString]
+
+Fields (count = 8):
+  + Field:        a Landroid/media/MediaPlayer;
+    Access flags: 0x2
+      = private android.media.MediaPlayer a
+  + Field:        b Z
+    Access flags: 0x2
+      = private boolean b
+  + Field:        c Z
+    Access flags: 0x2
+      = private boolean c
+  + Field:        d Ljava/lang/String;
+    Access flags: 0x12
+      = private final java.lang.String d
+    Class member attributes (count = 1):
+    + Constant value attribute:
+    + String [Disruptor]
+  + Field:        e Lcom/theriddlebrothers/disruptor/f;
+    Access flags: 0x2
+      = private com.theriddlebrothers.disruptor.f e
+  + Field:        f D
+    Access flags: 0x12
+      = private final double f
+    Class member attributes (count = 1):
+    + Constant value attribute:
+    + Double [20.0]
+  + Field:        g I
+    Access flags: 0x12
+      = private final int g
+    Class member attributes (count = 1):
+    + Constant value attribute:
+    + Integer [10]
+  + Field:        h D
+    Access flags: 0x2
+      = private double h
+
+Methods (count = 12):
+  - Method:       <init>()V
+    Access flags: 0x1
+      = public SoundPlayerActivity()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 34, locals = 1, stack = 3):
+      [0] aload_0 v0
+      [1] invokespecial #57
+        + Methodref [com/theriddlebrothers/disruptor/c.<init> ()V]
+      [4] aload_0 v0
+      [5] iconst_0
+      [6] putfield #33
+        + Fieldref [com/theriddlebrothers/disruptor/SoundPlayerActivity.b Z]
+      [9] aload_0 v0
+      [10] iconst_0
+      [11] putfield #34
+        + Fieldref [com/theriddlebrothers/disruptor/SoundPlayerActivity.c Z]
+      [14] aload_0 v0
+      [15] ldc #7
+        + String [Disruptor]
+      [17] putfield #35
+        + Fieldref [com/theriddlebrothers/disruptor/SoundPlayerActivity.d Ljava/lang/String;]
+      [20] aload_0 v0
+      [21] ldc2_w #30
+        + Double [20.0]
+      [24] putfield #37
+        + Fieldref [com/theriddlebrothers/disruptor/SoundPlayerActivity.f D]
+      [27] aload_0 v0
+      [28] bipush 10
+      [30] putfield #38
+        + Fieldref [com/theriddlebrothers/disruptor/SoundPlayerActivity.g I]
+      [33] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onCreate(Landroid/os/Bundle;)V
+    Access flags: 0x1
+      = public void onCreate(android.os.Bundle)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 190, locals = 9, stack = 6):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] invokespecial #58
+        + Methodref [com/theriddlebrothers/disruptor/c.onCreate (Landroid/os/Bundle;)V]
+      [5] aload_0 v0
+      [6] ldc #2
+        + Integer [2130903041]
+      [8] invokevirtual #55
+        + Methodref [com/theriddlebrothers/disruptor/SoundPlayerActivity.setContentView (I)V]
+      [11] aload_0 v0
+      [12] invokevirtual #54
+        + Methodref [com/theriddlebrothers/disruptor/SoundPlayerActivity.getIntent ()Landroid/content/Intent;]
+      [15] astore_2 v2
+      [16] aload_2 v2
+      [17] ldc #10
+        + String [defaultThreshold]
+      [19] ldc2_w #30
+        + Double [20.0]
+      [22] invokevirtual #40
+        + Methodref [android/content/Intent.getDoubleExtra (Ljava/lang/String;D)D]
+      [25] ldc2_w #28
+        + Double [10.0]
+      [28] dmul
+      [29] dstore_3 v3
+      [30] dload_3 v3
+      [31] invokestatic #65
+        + Methodref [java/lang/Math.floor (D)D]
+      [34] d2i
+      [35] istore v5
+      [37] aload_0 v0
+      [38] aload_0 v0
+      [39] iload v5
+      [41] invokespecial #50
+        + Methodref [com/theriddlebrothers/disruptor/SoundPlayerActivity.a (I)D]
+      [44] putfield #39
+        + Fieldref [com/theriddlebrothers/disruptor/SoundPlayerActivity.h D]
+      [47] aload_0 v0
+      [48] iconst_3
+      [49] invokevirtual #56
+        + Methodref [com/theriddlebrothers/disruptor/SoundPlayerActivity.setVolumeControlStream (I)V]
+      [52] aload_0 v0
+      [53] aload_0 v0
+      [54] ldc #3
+        + Integer [2130968576]
+      [56] invokestatic #41
+        + Methodref [android/media/MediaPlayer.create (Landroid/content/Context;I)Landroid/media/MediaPlayer;]
+      [59] putfield #32
+        + Fieldref [com/theriddlebrothers/disruptor/SoundPlayerActivity.a Landroid/media/MediaPlayer;]
+      [62] aload_0 v0
+      [63] getfield #32
+        + Fieldref [com/theriddlebrothers/disruptor/SoundPlayerActivity.a Landroid/media/MediaPlayer;]
+      [66] iconst_1
+      [67] invokevirtual #43
+        + Methodref [android/media/MediaPlayer.setLooping (Z)V]
+      [70] aload_0 v0
+      [71] new #19
+        + Class [com/theriddlebrothers/disruptor/f]
+      [74] dup
+      [75] invokespecial #59
+        + Methodref [com/theriddlebrothers/disruptor/f.<init> ()V]
+      [78] putfield #36
+        + Fieldref [com/theriddlebrothers/disruptor/SoundPlayerActivity.e Lcom/theriddlebrothers/disruptor/f;]
+      [81] aload_0 v0
+      [82] getfield #36
+        + Fieldref [com/theriddlebrothers/disruptor/SoundPlayerActivity.e Lcom/theriddlebrothers/disruptor/f;]
+      [85] invokevirtual #60
+        + Methodref [com/theriddlebrothers/disruptor/f.a ()V]
+      [88] new #25
+        + Class [java/util/Timer]
+      [91] dup
+      [92] invokespecial #66
+        + Methodref [java/util/Timer.<init> ()V]
+      [95] new #22
+        + Class [com/theriddlebrothers/disruptor/i]
+      [98] dup
+      [99] aload_0 v0
+      [100] aconst_null
+      [101] invokespecial #63
+        + Methodref [com/theriddlebrothers/disruptor/i.<init> (Lcom/theriddlebrothers/disruptor/SoundPlayerActivity;Lcom/theriddlebrothers/disruptor/g;)V]
+      [104] ldc2_w #26
+        + Long [100]
+      [107] ldc2_w #26
+        + Long [100]
+      [110] invokevirtual #67
+        + Methodref [java/util/Timer.scheduleAtFixedRate (Ljava/util/TimerTask;JJ)V]
+      [113] aload_0 v0
+      [114] ldc #6
+        + Integer [2131296262]
+      [116] invokevirtual #53
+        + Methodref [com/theriddlebrothers/disruptor/SoundPlayerActivity.findViewById (I)Landroid/view/View;]
+      [119] checkcast #14
+        + Class [android/widget/Button]
+      [122] astore v6
+      [124] aload v6
+      [126] new #20
+        + Class [com/theriddlebrothers/disruptor/g]
+      [129] dup
+      [130] aload_0 v0
+      [131] invokespecial #61
+        + Methodref [com/theriddlebrothers/disruptor/g.<init> (Lcom/theriddlebrothers/disruptor/SoundPlayerActivity;)V]
+      [134] invokevirtual #46
+        + Methodref [android/widget/Button.setOnTouchListener (Landroid/view/View$OnTouchListener;)V]
+      [137] aload_0 v0
+      [138] ldc #5
+        + Integer [2131296261]
+      [140] invokevirtual #53
+        + Methodref [com/theriddlebrothers/disruptor/SoundPlayerActivity.findViewById (I)Landroid/view/View;]
+      [143] checkcast #16
+        + Class [android/widget/TextView]
+      [146] astore v7
+      [148] aload v7
+      [150] iload v5
+      [152] invokestatic #64
+        + Methodref [java/lang/Integer.toString (I)Ljava/lang/String;]
+      [155] invokevirtual #49
+        + Methodref [android/widget/TextView.setText (Ljava/lang/CharSequence;)V]
+      [158] aload_0 v0
+      [159] ldc #4
+        + Integer [2131296259]
+      [161] invokevirtual #53
+        + Methodref [com/theriddlebrothers/disruptor/SoundPlayerActivity.findViewById (I)Landroid/view/View;]
+      [164] checkcast #15
+        + Class [android/widget/SeekBar]
+      [167] astore v8
+      [169] aload v8
+      [171] iload v5
+      [173] invokevirtual #48
+        + Methodref [android/widget/SeekBar.setProgress (I)V]
+      [176] aload v8
+      [178] new #21
+        + Class [com/theriddlebrothers/disruptor/h]
+      [181] dup
+      [182] aload_0 v0
+      [183] invokespecial #62
+        + Methodref [com/theriddlebrothers/disruptor/h.<init> (Lcom/theriddlebrothers/disruptor/SoundPlayerActivity;)V]
+      [186] invokevirtual #47
+        + Methodref [android/widget/SeekBar.setOnSeekBarChangeListener (Landroid/widget/SeekBar$OnSeekBarChangeListener;)V]
+      [189] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       a(I)D
+    Access flags: 0x2
+      = private double a(int)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 6, locals = 2, stack = 2):
+      [0] iload_1 v1
+      [1] bipush 10
+      [3] idiv
+      [4] i2d
+      [5] dreturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       a()V
+    Access flags: 0x1
+      = public void a()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 39, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] ldc #6
+        + Integer [2131296262]
+      [3] invokevirtual #53
+        + Methodref [com/theriddlebrothers/disruptor/SoundPlayerActivity.findViewById (I)Landroid/view/View;]
+      [6] checkcast #14
+        + Class [android/widget/Button]
+      [9] astore_1 v1
+      [10] aload_0 v0
+      [11] getfield #33
+        + Fieldref [com/theriddlebrothers/disruptor/SoundPlayerActivity.b Z]
+      [14] ifeq +15 (target=29)
+      [17] aload_0 v0
+      [18] iconst_0
+      [19] putfield #34
+        + Fieldref [com/theriddlebrothers/disruptor/SoundPlayerActivity.c Z]
+      [22] aload_0 v0
+      [23] invokevirtual #52
+        + Methodref [com/theriddlebrothers/disruptor/SoundPlayerActivity.c ()V]
+      [26] goto +12 (target=38)
+      [29] aload_0 v0
+      [30] iconst_1
+      [31] putfield #34
+        + Fieldref [com/theriddlebrothers/disruptor/SoundPlayerActivity.c Z]
+      [34] aload_0 v0
+      [35] invokevirtual #51
+        + Methodref [com/theriddlebrothers/disruptor/SoundPlayerActivity.b ()V]
+      [38] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Stack map table attribute (count = 2):
+        - [29] Var: ...[a:android/widget/Button], Stack: (empty)
+        - [38] Var: ..., Stack: (empty)
+  + Method:       b()V
+    Access flags: 0x1
+      = public void b()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 21, locals = 1, stack = 2):
+      [0] ldc #7
+        + String [Disruptor]
+      [2] ldc #8
+        + String [Playing sound...]
+      [4] invokestatic #45
+        + Methodref [android/util/Log.d (Ljava/lang/String;Ljava/lang/String;)I]
+      [7] pop
+      [8] aload_0 v0
+      [9] getfield #32
+        + Fieldref [com/theriddlebrothers/disruptor/SoundPlayerActivity.a Landroid/media/MediaPlayer;]
+      [12] invokevirtual #44
+        + Methodref [android/media/MediaPlayer.start ()V]
+      [15] aload_0 v0
+      [16] iconst_1
+      [17] putfield #33
+        + Fieldref [com/theriddlebrothers/disruptor/SoundPlayerActivity.b Z]
+      [20] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       c()V
+    Access flags: 0x1
+      = public void c()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 21, locals = 1, stack = 2):
+      [0] ldc #7
+        + String [Disruptor]
+      [2] ldc #9
+        + String [Stopping sound...]
+      [4] invokestatic #45
+        + Methodref [android/util/Log.d (Ljava/lang/String;Ljava/lang/String;)I]
+      [7] pop
+      [8] aload_0 v0
+      [9] getfield #32
+        + Fieldref [com/theriddlebrothers/disruptor/SoundPlayerActivity.a Landroid/media/MediaPlayer;]
+      [12] invokevirtual #42
+        + Methodref [android/media/MediaPlayer.pause ()V]
+      [15] aload_0 v0
+      [16] iconst_0
+      [17] putfield #33
+        + Fieldref [com/theriddlebrothers/disruptor/SoundPlayerActivity.b Z]
+      [20] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       a(Lcom/theriddlebrothers/disruptor/SoundPlayerActivity;I)D
+    Access flags: 0x1008
+      = static synthetic double a(com.theriddlebrothers.disruptor.SoundPlayerActivity,int)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 6, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] iload_1 v1
+      [2] invokespecial #50
+        + Methodref [com/theriddlebrothers/disruptor/SoundPlayerActivity.a (I)D]
+      [5] dreturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       a(Lcom/theriddlebrothers/disruptor/SoundPlayerActivity;D)D
+    Access flags: 0x1008
+      = static synthetic double a(com.theriddlebrothers.disruptor.SoundPlayerActivity,double)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 7, locals = 3, stack = 5):
+      [0] aload_0 v0
+      [1] dload_1 v1
+      [2] dup2_x1
+      [3] putfield #39
+        + Fieldref [com/theriddlebrothers/disruptor/SoundPlayerActivity.h D]
+      [6] dreturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       a(Lcom/theriddlebrothers/disruptor/SoundPlayerActivity;)Z
+    Access flags: 0x1008
+      = static synthetic boolean a(com.theriddlebrothers.disruptor.SoundPlayerActivity)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] getfield #34
+        + Fieldref [com/theriddlebrothers/disruptor/SoundPlayerActivity.c Z]
+      [4] ireturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       b(Lcom/theriddlebrothers/disruptor/SoundPlayerActivity;)Lcom/theriddlebrothers/disruptor/f;
+    Access flags: 0x1008
+      = static synthetic com.theriddlebrothers.disruptor.f b(com.theriddlebrothers.disruptor.SoundPlayerActivity)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] getfield #36
+        + Fieldref [com/theriddlebrothers/disruptor/SoundPlayerActivity.e Lcom/theriddlebrothers/disruptor/f;]
+      [4] areturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       c(Lcom/theriddlebrothers/disruptor/SoundPlayerActivity;)D
+    Access flags: 0x1008
+      = static synthetic double c(com.theriddlebrothers.disruptor.SoundPlayerActivity)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 2):
+      [0] aload_0 v0
+      [1] getfield #39
+        + Fieldref [com/theriddlebrothers/disruptor/SoundPlayerActivity.h D]
+      [4] dreturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       d(Lcom/theriddlebrothers/disruptor/SoundPlayerActivity;)Z
+    Access flags: 0x1008
+      = static synthetic boolean d(com.theriddlebrothers.disruptor.SoundPlayerActivity)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] getfield #33
+        + Fieldref [com/theriddlebrothers/disruptor/SoundPlayerActivity.b Z]
+      [4] ireturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: com/theriddlebrothers/disruptor/g
+  Superclass:    java/lang/Object
+  Major version: 0x32
+  Minor version: 0x0
+  Access flags:  0x20
+    = class com.theriddlebrothers.disruptor.g extends java.lang.Object
+
+Interfaces (count = 1):
+  + Class [android/view/View$OnTouchListener]
+
+Constant Pool (count = 30):
+  + Class [android/view/MotionEvent]
+  + Class [android/view/View$OnTouchListener]
+  + Class [com/theriddlebrothers/disruptor/SoundPlayerActivity]
+  + Class [com/theriddlebrothers/disruptor/g]
+  + Class [java/lang/Object]
+  + Fieldref [com/theriddlebrothers/disruptor/g.a Lcom/theriddlebrothers/disruptor/SoundPlayerActivity;]
+  + Methodref [android/view/MotionEvent.getAction ()I]
+  + Methodref [com/theriddlebrothers/disruptor/SoundPlayerActivity.a ()V]
+  + Methodref [java/lang/Object.<init> ()V]
+  + NameAndType [<init> ()V]
+  + NameAndType [a ()V]
+  + NameAndType [a Lcom/theriddlebrothers/disruptor/SoundPlayerActivity;]
+  + NameAndType [getAction ()I]
+  + Utf8 [()I]
+  + Utf8 [()V]
+  + Utf8 [(Landroid/view/View;Landroid/view/MotionEvent;)Z]
+  + Utf8 [(Lcom/theriddlebrothers/disruptor/SoundPlayerActivity;)V]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [Lcom/theriddlebrothers/disruptor/SoundPlayerActivity;]
+  + Utf8 [StackMapTable]
+  + Utf8 [a]
+  + Utf8 [android/view/MotionEvent]
+  + Utf8 [android/view/View$OnTouchListener]
+  + Utf8 [com/theriddlebrothers/disruptor/SoundPlayerActivity]
+  + Utf8 [com/theriddlebrothers/disruptor/g]
+  + Utf8 [getAction]
+  + Utf8 [java/lang/Object]
+  + Utf8 [onTouch]
+
+Fields (count = 1):
+  + Field:        a Lcom/theriddlebrothers/disruptor/SoundPlayerActivity;
+    Access flags: 0x1010
+      = final synthetic com.theriddlebrothers.disruptor.SoundPlayerActivity a
+
+Methods (count = 2):
+  - Method:       <init>(Lcom/theriddlebrothers/disruptor/SoundPlayerActivity;)V
+    Access flags: 0x0
+      = g(com.theriddlebrothers.disruptor.SoundPlayerActivity)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 10, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] putfield #6
+        + Fieldref [com/theriddlebrothers/disruptor/g.a Lcom/theriddlebrothers/disruptor/SoundPlayerActivity;]
+      [5] aload_0 v0
+      [6] invokespecial #9
+        + Methodref [java/lang/Object.<init> ()V]
+      [9] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onTouch(Landroid/view/View;Landroid/view/MotionEvent;)Z
+    Access flags: 0x1
+      = public boolean onTouch(android.view.View,android.view.MotionEvent)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 52, locals = 3, stack = 1):
+      [0] aload_2 v2
+      [1] invokevirtual #7
+        + Methodref [android/view/MotionEvent.getAction ()I]
+      [4] lookupswitch (2 offsets, default=46) (target=50)
+        0: offset = 28, target = 32
+        1: offset = 37, target = 41
+        default: offset = 46, target = 50
+      [32] aload_0 v0
+      [33] getfield #6
+        + Fieldref [com/theriddlebrothers/disruptor/g.a Lcom/theriddlebrothers/disruptor/SoundPlayerActivity;]
+      [36] invokevirtual #8
+        + Methodref [com/theriddlebrothers/disruptor/SoundPlayerActivity.a ()V]
+      [39] iconst_1
+      [40] ireturn
+      [41] aload_0 v0
+      [42] getfield #6
+        + Fieldref [com/theriddlebrothers/disruptor/g.a Lcom/theriddlebrothers/disruptor/SoundPlayerActivity;]
+      [45] invokevirtual #8
+        + Methodref [com/theriddlebrothers/disruptor/SoundPlayerActivity.a ()V]
+      [48] iconst_1
+      [49] ireturn
+      [50] iconst_0
+      [51] ireturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Stack map table attribute (count = 3):
+        - [32] Var: ..., Stack: (empty)
+        - [41] Var: ..., Stack: (empty)
+        - [50] Var: ..., Stack: (empty)
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: com/theriddlebrothers/disruptor/h
+  Superclass:    java/lang/Object
+  Major version: 0x32
+  Minor version: 0x0
+  Access flags:  0x20
+    = class com.theriddlebrothers.disruptor.h extends java.lang.Object
+
+Interfaces (count = 1):
+  + Class [android/widget/SeekBar$OnSeekBarChangeListener]
+
+Constant Pool (count = 50):
+  + Integer [2131296261]
+  + Class [android/widget/SeekBar$OnSeekBarChangeListener]
+  + Class [android/widget/TextView]
+  + Class [com/theriddlebrothers/disruptor/SoundPlayerActivity]
+  + Class [com/theriddlebrothers/disruptor/h]
+  + Class [java/lang/Integer]
+  + Class [java/lang/Object]
+  + Double [0.1]
+  + Fieldref [com/theriddlebrothers/disruptor/h.a Lcom/theriddlebrothers/disruptor/SoundPlayerActivity;]
+  + Methodref [android/widget/TextView.setText (Ljava/lang/CharSequence;)V]
+  + Methodref [com/theriddlebrothers/disruptor/SoundPlayerActivity.a (Lcom/theriddlebrothers/disruptor/SoundPlayerActivity;D)D]
+  + Methodref [com/theriddlebrothers/disruptor/SoundPlayerActivity.a (Lcom/theriddlebrothers/disruptor/SoundPlayerActivity;I)D]
+  + Methodref [com/theriddlebrothers/disruptor/SoundPlayerActivity.findViewById (I)Landroid/view/View;]
+  + Methodref [java/lang/Integer.toString (I)Ljava/lang/String;]
+  + Methodref [java/lang/Object.<init> ()V]
+  + NameAndType [<init> ()V]
+  + NameAndType [a (Lcom/theriddlebrothers/disruptor/SoundPlayerActivity;D)D]
+  + NameAndType [a (Lcom/theriddlebrothers/disruptor/SoundPlayerActivity;I)D]
+  + NameAndType [a Lcom/theriddlebrothers/disruptor/SoundPlayerActivity;]
+  + NameAndType [findViewById (I)Landroid/view/View;]
+  + NameAndType [setText (Ljava/lang/CharSequence;)V]
+  + NameAndType [toString (I)Ljava/lang/String;]
+  + Utf8 [()V]
+  + Utf8 [(I)Landroid/view/View;]
+  + Utf8 [(I)Ljava/lang/String;]
+  + Utf8 [(Landroid/widget/SeekBar;)V]
+  + Utf8 [(Landroid/widget/SeekBar;IZ)V]
+  + Utf8 [(Lcom/theriddlebrothers/disruptor/SoundPlayerActivity;)V]
+  + Utf8 [(Lcom/theriddlebrothers/disruptor/SoundPlayerActivity;D)D]
+  + Utf8 [(Lcom/theriddlebrothers/disruptor/SoundPlayerActivity;I)D]
+  + Utf8 [(Ljava/lang/CharSequence;)V]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [Lcom/theriddlebrothers/disruptor/SoundPlayerActivity;]
+  + Utf8 [StackMapTable]
+  + Utf8 [a]
+  + Utf8 [android/widget/SeekBar$OnSeekBarChangeListener]
+  + Utf8 [android/widget/TextView]
+  + Utf8 [com/theriddlebrothers/disruptor/SoundPlayerActivity]
+  + Utf8 [com/theriddlebrothers/disruptor/h]
+  + Utf8 [findViewById]
+  + Utf8 [java/lang/Integer]
+  + Utf8 [java/lang/Object]
+  + Utf8 [onProgressChanged]
+  + Utf8 [onStartTrackingTouch]
+  + Utf8 [onStopTrackingTouch]
+  + Utf8 [setText]
+  + Utf8 [toString]
+
+Fields (count = 1):
+  + Field:        a Lcom/theriddlebrothers/disruptor/SoundPlayerActivity;
+    Access flags: 0x1010
+      = final synthetic com.theriddlebrothers.disruptor.SoundPlayerActivity a
+
+Methods (count = 4):
+  - Method:       <init>(Lcom/theriddlebrothers/disruptor/SoundPlayerActivity;)V
+    Access flags: 0x0
+      = h(com.theriddlebrothers.disruptor.SoundPlayerActivity)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 10, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] putfield #10
+        + Fieldref [com/theriddlebrothers/disruptor/h.a Lcom/theriddlebrothers/disruptor/SoundPlayerActivity;]
+      [5] aload_0 v0
+      [6] invokespecial #16
+        + Methodref [java/lang/Object.<init> ()V]
+      [9] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onProgressChanged(Landroid/widget/SeekBar;IZ)V
+    Access flags: 0x1
+      = public void onProgressChanged(android.widget.SeekBar,int,boolean)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 56, locals = 7, stack = 4):
+      [0] aload_0 v0
+      [1] getfield #10
+        + Fieldref [com/theriddlebrothers/disruptor/h.a Lcom/theriddlebrothers/disruptor/SoundPlayerActivity;]
+      [4] iload_2 v2
+      [5] invokestatic #13
+        + Methodref [com/theriddlebrothers/disruptor/SoundPlayerActivity.a (Lcom/theriddlebrothers/disruptor/SoundPlayerActivity;I)D]
+      [8] dstore v4
+      [10] aload_0 v0
+      [11] getfield #10
+        + Fieldref [com/theriddlebrothers/disruptor/h.a Lcom/theriddlebrothers/disruptor/SoundPlayerActivity;]
+      [14] ldc #1
+        + Integer [2131296261]
+      [16] invokevirtual #14
+        + Methodref [com/theriddlebrothers/disruptor/SoundPlayerActivity.findViewById (I)Landroid/view/View;]
+      [19] checkcast #3
+        + Class [android/widget/TextView]
+      [22] astore v6
+      [24] aload v6
+      [26] iload_2 v2
+      [27] invokestatic #15
+        + Methodref [java/lang/Integer.toString (I)Ljava/lang/String;]
+      [30] invokevirtual #11
+        + Methodref [android/widget/TextView.setText (Ljava/lang/CharSequence;)V]
+      [33] dload v4
+      [35] dconst_0
+      [36] dcmpg
+      [37] ifgt +8 (target=45)
+      [40] ldc2_w #8
+        + Double [0.1]
+      [43] dstore v4
+      [45] aload_0 v0
+      [46] getfield #10
+        + Fieldref [com/theriddlebrothers/disruptor/h.a Lcom/theriddlebrothers/disruptor/SoundPlayerActivity;]
+      [49] dload v4
+      [51] invokestatic #12
+        + Methodref [com/theriddlebrothers/disruptor/SoundPlayerActivity.a (Lcom/theriddlebrothers/disruptor/SoundPlayerActivity;D)D]
+      [54] pop2
+      [55] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Stack map table attribute (count = 1):
+        - [45] Var: ...[d][a:android/widget/TextView], Stack: (empty)
+  + Method:       onStartTrackingTouch(Landroid/widget/SeekBar;)V
+    Access flags: 0x1
+      = public void onStartTrackingTouch(android.widget.SeekBar)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 1, locals = 2, stack = 0):
+      [0] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onStopTrackingTouch(Landroid/widget/SeekBar;)V
+    Access flags: 0x1
+      = public void onStopTrackingTouch(android.widget.SeekBar)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 1, locals = 2, stack = 0):
+      [0] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: com/theriddlebrothers/disruptor/i
+  Superclass:    java/util/TimerTask
+  Major version: 0x32
+  Minor version: 0x0
+  Access flags:  0x20
+    = class com.theriddlebrothers.disruptor.i extends java.util.TimerTask
+
+Interfaces (count = 0):
+
+Constant Pool (count = 72):
+  + String [Disruptor]
+  + String [Threshold dropped: ]
+  + String [Threshold reached: ]
+  + Class [android/util/Log]
+  + Class [com/theriddlebrothers/disruptor/SoundPlayerActivity]
+  + Class [com/theriddlebrothers/disruptor/f]
+  + Class [com/theriddlebrothers/disruptor/i]
+  + Class [java/lang/Double]
+  + Class [java/lang/StringBuilder]
+  + Class [java/util/TimerTask]
+  + Fieldref [com/theriddlebrothers/disruptor/i.a Lcom/theriddlebrothers/disruptor/SoundPlayerActivity;]
+  + Methodref [android/util/Log.d (Ljava/lang/String;Ljava/lang/String;)I]
+  + Methodref [com/theriddlebrothers/disruptor/SoundPlayerActivity.a (Lcom/theriddlebrothers/disruptor/SoundPlayerActivity;)Z]
+  + Methodref [com/theriddlebrothers/disruptor/SoundPlayerActivity.b ()V]
+  + Methodref [com/theriddlebrothers/disruptor/SoundPlayerActivity.b (Lcom/theriddlebrothers/disruptor/SoundPlayerActivity;)Lcom/theriddlebrothers/disruptor/f;]
+  + Methodref [com/theriddlebrothers/disruptor/SoundPlayerActivity.c ()V]
+  + Methodref [com/theriddlebrothers/disruptor/SoundPlayerActivity.c (Lcom/theriddlebrothers/disruptor/SoundPlayerActivity;)D]
+  + Methodref [com/theriddlebrothers/disruptor/SoundPlayerActivity.d (Lcom/theriddlebrothers/disruptor/SoundPlayerActivity;)Z]
+  + Methodref [com/theriddlebrothers/disruptor/f.c ()D]
+  + Methodref [com/theriddlebrothers/disruptor/i.<init> (Lcom/theriddlebrothers/disruptor/SoundPlayerActivity;)V]
+  + Methodref [java/lang/Double.toString (D)Ljava/lang/String;]
+  + Methodref [java/lang/StringBuilder.<init> ()V]
+  + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+  + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+  + Methodref [java/util/TimerTask.<init> ()V]
+  + NameAndType [<init> ()V]
+  + NameAndType [<init> (Lcom/theriddlebrothers/disruptor/SoundPlayerActivity;)V]
+  + NameAndType [a (Lcom/theriddlebrothers/disruptor/SoundPlayerActivity;)Z]
+  + NameAndType [a Lcom/theriddlebrothers/disruptor/SoundPlayerActivity;]
+  + NameAndType [append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+  + NameAndType [b ()V]
+  + NameAndType [b (Lcom/theriddlebrothers/disruptor/SoundPlayerActivity;)Lcom/theriddlebrothers/disruptor/f;]
+  + NameAndType [c ()D]
+  + NameAndType [c ()V]
+  + NameAndType [c (Lcom/theriddlebrothers/disruptor/SoundPlayerActivity;)D]
+  + NameAndType [d (Lcom/theriddlebrothers/disruptor/SoundPlayerActivity;)Z]
+  + NameAndType [d (Ljava/lang/String;Ljava/lang/String;)I]
+  + NameAndType [toString ()Ljava/lang/String;]
+  + NameAndType [toString (D)Ljava/lang/String;]
+  + Utf8 [()D]
+  + Utf8 [()Ljava/lang/String;]
+  + Utf8 [()V]
+  + Utf8 [(D)Ljava/lang/String;]
+  + Utf8 [(Lcom/theriddlebrothers/disruptor/SoundPlayerActivity;)D]
+  + Utf8 [(Lcom/theriddlebrothers/disruptor/SoundPlayerActivity;)Lcom/theriddlebrothers/disruptor/f;]
+  + Utf8 [(Lcom/theriddlebrothers/disruptor/SoundPlayerActivity;)V]
+  + Utf8 [(Lcom/theriddlebrothers/disruptor/SoundPlayerActivity;)Z]
+  + Utf8 [(Lcom/theriddlebrothers/disruptor/SoundPlayerActivity;Lcom/theriddlebrothers/disruptor/g;)V]
+  + Utf8 [(Ljava/lang/String;)Ljava/lang/StringBuilder;]
+  + Utf8 [(Ljava/lang/String;Ljava/lang/String;)I]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [Disruptor]
+  + Utf8 [Lcom/theriddlebrothers/disruptor/SoundPlayerActivity;]
+  + Utf8 [StackMapTable]
+  + Utf8 [Threshold dropped: ]
+  + Utf8 [Threshold reached: ]
+  + Utf8 [a]
+  + Utf8 [android/util/Log]
+  + Utf8 [append]
+  + Utf8 [b]
+  + Utf8 [c]
+  + Utf8 [com/theriddlebrothers/disruptor/SoundPlayerActivity]
+  + Utf8 [com/theriddlebrothers/disruptor/f]
+  + Utf8 [com/theriddlebrothers/disruptor/i]
+  + Utf8 [d]
+  + Utf8 [java/lang/Double]
+  + Utf8 [java/lang/StringBuilder]
+  + Utf8 [java/util/TimerTask]
+  + Utf8 [run]
+  + Utf8 [toString]
+
+Fields (count = 1):
+  + Field:        a Lcom/theriddlebrothers/disruptor/SoundPlayerActivity;
+    Access flags: 0x1010
+      = final synthetic com.theriddlebrothers.disruptor.SoundPlayerActivity a
+
+Methods (count = 3):
+  - Method:       <init>(Lcom/theriddlebrothers/disruptor/SoundPlayerActivity;)V
+    Access flags: 0x2
+      = private i(com.theriddlebrothers.disruptor.SoundPlayerActivity)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 10, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] putfield #11
+        + Fieldref [com/theriddlebrothers/disruptor/i.a Lcom/theriddlebrothers/disruptor/SoundPlayerActivity;]
+      [5] aload_0 v0
+      [6] invokespecial #25
+        + Methodref [java/util/TimerTask.<init> ()V]
+      [9] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       run()V
+    Access flags: 0x1
+      = public void run()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 140, locals = 3, stack = 4):
+      [0] aload_0 v0
+      [1] getfield #11
+        + Fieldref [com/theriddlebrothers/disruptor/i.a Lcom/theriddlebrothers/disruptor/SoundPlayerActivity;]
+      [4] invokestatic #13
+        + Methodref [com/theriddlebrothers/disruptor/SoundPlayerActivity.a (Lcom/theriddlebrothers/disruptor/SoundPlayerActivity;)Z]
+      [7] ifeq +4 (target=11)
+      [10] return
+      [11] aload_0 v0
+      [12] getfield #11
+        + Fieldref [com/theriddlebrothers/disruptor/i.a Lcom/theriddlebrothers/disruptor/SoundPlayerActivity;]
+      [15] invokestatic #15
+        + Methodref [com/theriddlebrothers/disruptor/SoundPlayerActivity.b (Lcom/theriddlebrothers/disruptor/SoundPlayerActivity;)Lcom/theriddlebrothers/disruptor/f;]
+      [18] invokevirtual #19
+        + Methodref [com/theriddlebrothers/disruptor/f.c ()D]
+      [21] dstore_1 v1
+      [22] dload_1 v1
+      [23] aload_0 v0
+      [24] getfield #11
+        + Fieldref [com/theriddlebrothers/disruptor/i.a Lcom/theriddlebrothers/disruptor/SoundPlayerActivity;]
+      [27] invokestatic #17
+        + Methodref [com/theriddlebrothers/disruptor/SoundPlayerActivity.c (Lcom/theriddlebrothers/disruptor/SoundPlayerActivity;)D]
+      [30] dcmpl
+      [31] iflt +51 (target=82)
+      [34] aload_0 v0
+      [35] getfield #11
+        + Fieldref [com/theriddlebrothers/disruptor/i.a Lcom/theriddlebrothers/disruptor/SoundPlayerActivity;]
+      [38] invokestatic #18
+        + Methodref [com/theriddlebrothers/disruptor/SoundPlayerActivity.d (Lcom/theriddlebrothers/disruptor/SoundPlayerActivity;)Z]
+      [41] ifne +41 (target=82)
+      [44] ldc #1
+        + String [Disruptor]
+      [46] new #9
+        + Class [java/lang/StringBuilder]
+      [49] dup
+      [50] invokespecial #22
+        + Methodref [java/lang/StringBuilder.<init> ()V]
+      [53] ldc #3
+        + String [Threshold reached: ]
+      [55] invokevirtual #23
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [58] dload_1 v1
+      [59] invokestatic #21
+        + Methodref [java/lang/Double.toString (D)Ljava/lang/String;]
+      [62] invokevirtual #23
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [65] invokevirtual #24
+        + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+      [68] invokestatic #12
+        + Methodref [android/util/Log.d (Ljava/lang/String;Ljava/lang/String;)I]
+      [71] pop
+      [72] aload_0 v0
+      [73] getfield #11
+        + Fieldref [com/theriddlebrothers/disruptor/i.a Lcom/theriddlebrothers/disruptor/SoundPlayerActivity;]
+      [76] invokevirtual #14
+        + Methodref [com/theriddlebrothers/disruptor/SoundPlayerActivity.b ()V]
+      [79] goto +60 (target=139)
+      [82] dload_1 v1
+      [83] aload_0 v0
+      [84] getfield #11
+        + Fieldref [com/theriddlebrothers/disruptor/i.a Lcom/theriddlebrothers/disruptor/SoundPlayerActivity;]
+      [87] invokestatic #17
+        + Methodref [com/theriddlebrothers/disruptor/SoundPlayerActivity.c (Lcom/theriddlebrothers/disruptor/SoundPlayerActivity;)D]
+      [90] dcmpg
+      [91] ifge +48 (target=139)
+      [94] aload_0 v0
+      [95] getfield #11
+        + Fieldref [com/theriddlebrothers/disruptor/i.a Lcom/theriddlebrothers/disruptor/SoundPlayerActivity;]
+      [98] invokestatic #18
+        + Methodref [com/theriddlebrothers/disruptor/SoundPlayerActivity.d (Lcom/theriddlebrothers/disruptor/SoundPlayerActivity;)Z]
+      [101] ifeq +38 (target=139)
+      [104] ldc #1
+        + String [Disruptor]
+      [106] new #9
+        + Class [java/lang/StringBuilder]
+      [109] dup
+      [110] invokespecial #22
+        + Methodref [java/lang/StringBuilder.<init> ()V]
+      [113] ldc #2
+        + String [Threshold dropped: ]
+      [115] invokevirtual #23
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [118] dload_1 v1
+      [119] invokestatic #21
+        + Methodref [java/lang/Double.toString (D)Ljava/lang/String;]
+      [122] invokevirtual #23
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [125] invokevirtual #24
+        + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+      [128] invokestatic #12
+        + Methodref [android/util/Log.d (Ljava/lang/String;Ljava/lang/String;)I]
+      [131] pop
+      [132] aload_0 v0
+      [133] getfield #11
+        + Fieldref [com/theriddlebrothers/disruptor/i.a Lcom/theriddlebrothers/disruptor/SoundPlayerActivity;]
+      [136] invokevirtual #16
+        + Methodref [com/theriddlebrothers/disruptor/SoundPlayerActivity.c ()V]
+      [139] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Stack map table attribute (count = 3):
+        - [11] Var: ..., Stack: (empty)
+        - [82] Var: ...[d], Stack: (empty)
+        - [139] Var: ..., Stack: (empty)
+  - Method:       <init>(Lcom/theriddlebrothers/disruptor/SoundPlayerActivity;Lcom/theriddlebrothers/disruptor/g;)V
+    Access flags: 0x1000
+      = synthetic i(com.theriddlebrothers.disruptor.SoundPlayerActivity,com.theriddlebrothers.disruptor.g)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 6, locals = 3, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] invokespecial #20
+        + Methodref [com/theriddlebrothers/disruptor/i.<init> (Lcom/theriddlebrothers/disruptor/SoundPlayerActivity;)V]
+      [5] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: com/theriddlebrothers/disruptor/SplashActivity
+  Superclass:    android/app/Activity
+  Major version: 0x32
+  Minor version: 0x0
+  Access flags:  0x21
+    = public class com.theriddlebrothers.disruptor.SplashActivity extends android.app.Activity
+
+Interfaces (count = 0):
+
+Constant Pool (count = 33):
+  + Integer [2130903042]
+  + Class [android/app/Activity]
+  + Class [android/os/Handler]
+  + Class [com/theriddlebrothers/disruptor/SplashActivity]
+  + Class [com/theriddlebrothers/disruptor/j]
+  + Long [2000]
+  + Methodref [android/app/Activity.<init> ()V]
+  + Methodref [android/app/Activity.onCreate (Landroid/os/Bundle;)V]
+  + Methodref [android/os/Handler.<init> ()V]
+  + Methodref [android/os/Handler.postDelayed (Ljava/lang/Runnable;J)Z]
+  + Methodref [com/theriddlebrothers/disruptor/SplashActivity.setContentView (I)V]
+  + Methodref [com/theriddlebrothers/disruptor/j.<init> (Lcom/theriddlebrothers/disruptor/SplashActivity;)V]
+  + NameAndType [<init> ()V]
+  + NameAndType [<init> (Lcom/theriddlebrothers/disruptor/SplashActivity;)V]
+  + NameAndType [onCreate (Landroid/os/Bundle;)V]
+  + NameAndType [postDelayed (Ljava/lang/Runnable;J)Z]
+  + NameAndType [setContentView (I)V]
+  + Utf8 [()V]
+  + Utf8 [(I)V]
+  + Utf8 [(Landroid/os/Bundle;)V]
+  + Utf8 [(Lcom/theriddlebrothers/disruptor/SplashActivity;)V]
+  + Utf8 [(Ljava/lang/Runnable;J)Z]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [android/app/Activity]
+  + Utf8 [android/os/Handler]
+  + Utf8 [com/theriddlebrothers/disruptor/SplashActivity]
+  + Utf8 [com/theriddlebrothers/disruptor/j]
+  + Utf8 [onCreate]
+  + Utf8 [postDelayed]
+  + Utf8 [setContentView]
+
+Fields (count = 0):
+
+Methods (count = 2):
+  - Method:       <init>()V
+    Access flags: 0x1
+      = public SplashActivity()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] invokespecial #8
+        + Methodref [android/app/Activity.<init> ()V]
+      [4] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onCreate(Landroid/os/Bundle;)V
+    Access flags: 0x1
+      = public void onCreate(android.os.Bundle)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 36, locals = 3, stack = 4):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] invokespecial #9
+        + Methodref [android/app/Activity.onCreate (Landroid/os/Bundle;)V]
+      [5] aload_0 v0
+      [6] ldc #1
+        + Integer [2130903042]
+      [8] invokevirtual #12
+        + Methodref [com/theriddlebrothers/disruptor/SplashActivity.setContentView (I)V]
+      [11] new #3
+        + Class [android/os/Handler]
+      [14] dup
+      [15] invokespecial #10
+        + Methodref [android/os/Handler.<init> ()V]
+      [18] astore_2 v2
+      [19] aload_2 v2
+      [20] new #5
+        + Class [com/theriddlebrothers/disruptor/j]
+      [23] dup
+      [24] aload_0 v0
+      [25] invokespecial #13
+        + Methodref [com/theriddlebrothers/disruptor/j.<init> (Lcom/theriddlebrothers/disruptor/SplashActivity;)V]
+      [28] ldc2_w #6
+        + Long [2000]
+      [31] invokevirtual #11
+        + Methodref [android/os/Handler.postDelayed (Ljava/lang/Runnable;J)Z]
+      [34] pop
+      [35] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: com/theriddlebrothers/disruptor/j
+  Superclass:    java/lang/Object
+  Major version: 0x32
+  Minor version: 0x0
+  Access flags:  0x20
+    = class com.theriddlebrothers.disruptor.j extends java.lang.Object
+
+Interfaces (count = 1):
+  + Class [java/lang/Runnable]
+
+Constant Pool (count = 34):
+  + Class [android/content/Intent]
+  + Class [com/theriddlebrothers/disruptor/ConfigureActivity]
+  + Class [com/theriddlebrothers/disruptor/SplashActivity]
+  + Class [com/theriddlebrothers/disruptor/j]
+  + Class [java/lang/Object]
+  + Class [java/lang/Runnable]
+  + Fieldref [com/theriddlebrothers/disruptor/j.a Lcom/theriddlebrothers/disruptor/SplashActivity;]
+  + Methodref [android/content/Intent.<init> (Landroid/content/Context;Ljava/lang/Class;)V]
+  + Methodref [com/theriddlebrothers/disruptor/SplashActivity.finish ()V]
+  + Methodref [com/theriddlebrothers/disruptor/SplashActivity.startActivity (Landroid/content/Intent;)V]
+  + Methodref [java/lang/Object.<init> ()V]
+  + NameAndType [<init> ()V]
+  + NameAndType [<init> (Landroid/content/Context;Ljava/lang/Class;)V]
+  + NameAndType [a Lcom/theriddlebrothers/disruptor/SplashActivity;]
+  + NameAndType [finish ()V]
+  + NameAndType [startActivity (Landroid/content/Intent;)V]
+  + Utf8 [()V]
+  + Utf8 [(Landroid/content/Context;Ljava/lang/Class;)V]
+  + Utf8 [(Landroid/content/Intent;)V]
+  + Utf8 [(Lcom/theriddlebrothers/disruptor/SplashActivity;)V]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [Lcom/theriddlebrothers/disruptor/SplashActivity;]
+  + Utf8 [a]
+  + Utf8 [android/content/Intent]
+  + Utf8 [com/theriddlebrothers/disruptor/ConfigureActivity]
+  + Utf8 [com/theriddlebrothers/disruptor/SplashActivity]
+  + Utf8 [com/theriddlebrothers/disruptor/j]
+  + Utf8 [finish]
+  + Utf8 [java/lang/Object]
+  + Utf8 [java/lang/Runnable]
+  + Utf8 [run]
+  + Utf8 [startActivity]
+
+Fields (count = 1):
+  + Field:        a Lcom/theriddlebrothers/disruptor/SplashActivity;
+    Access flags: 0x1010
+      = final synthetic com.theriddlebrothers.disruptor.SplashActivity a
+
+Methods (count = 2):
+  - Method:       <init>(Lcom/theriddlebrothers/disruptor/SplashActivity;)V
+    Access flags: 0x0
+      = j(com.theriddlebrothers.disruptor.SplashActivity)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 10, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] putfield #7
+        + Fieldref [com/theriddlebrothers/disruptor/j.a Lcom/theriddlebrothers/disruptor/SplashActivity;]
+      [5] aload_0 v0
+      [6] invokespecial #11
+        + Methodref [java/lang/Object.<init> ()V]
+      [9] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       run()V
+    Access flags: 0x1
+      = public void run()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 30, locals = 2, stack = 4):
+      [0] aload_0 v0
+      [1] getfield #7
+        + Fieldref [com/theriddlebrothers/disruptor/j.a Lcom/theriddlebrothers/disruptor/SplashActivity;]
+      [4] invokevirtual #9
+        + Methodref [com/theriddlebrothers/disruptor/SplashActivity.finish ()V]
+      [7] new #1
+        + Class [android/content/Intent]
+      [10] dup
+      [11] aload_0 v0
+      [12] getfield #7
+        + Fieldref [com/theriddlebrothers/disruptor/j.a Lcom/theriddlebrothers/disruptor/SplashActivity;]
+      [15] ldc #2
+        + Class [com/theriddlebrothers/disruptor/ConfigureActivity]
+      [17] invokespecial #8
+        + Methodref [android/content/Intent.<init> (Landroid/content/Context;Ljava/lang/Class;)V]
+      [20] astore_1 v1
+      [21] aload_0 v0
+      [22] getfield #7
+        + Fieldref [com/theriddlebrothers/disruptor/j.a Lcom/theriddlebrothers/disruptor/SplashActivity;]
+      [25] aload_1 v1
+      [26] invokevirtual #10
+        + Methodref [com/theriddlebrothers/disruptor/SplashActivity.startActivity (Landroid/content/Intent;)V]
+      [29] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+

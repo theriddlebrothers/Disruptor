@@ -1,0 +1,79 @@
+com.theriddlebrothers.disruptor.ConfigureActivity -> com.theriddlebrothers.disruptor.ConfigureActivity:
+    android.media.MediaPlayer mPlayer -> a
+    java.lang.String TAG -> b
+    com.theriddlebrothers.disruptor.SoundMeter meter -> c
+    int SAMPLES_TO_TAKE -> d
+    int numSamplesTaken -> e
+    java.util.Timer timer -> f
+    double totalThreshold -> g
+    double avgThreshold -> h
+    void onCreate(android.os.Bundle) -> onCreate
+    void startConfiguration() -> a
+    void stopConfiguration() -> b
+    boolean onCreateOptionsMenu(android.view.Menu) -> onCreateOptionsMenu
+    boolean onOptionsItemSelected(android.view.MenuItem) -> onOptionsItemSelected
+    com.theriddlebrothers.disruptor.SoundMeter access$000(com.theriddlebrothers.disruptor.ConfigureActivity) -> a
+    int access$108(com.theriddlebrothers.disruptor.ConfigureActivity) -> b
+    int access$100(com.theriddlebrothers.disruptor.ConfigureActivity) -> c
+    double access$218(com.theriddlebrothers.disruptor.ConfigureActivity,double) -> a
+    double access$302(com.theriddlebrothers.disruptor.ConfigureActivity,double) -> b
+    double access$200(com.theriddlebrothers.disruptor.ConfigureActivity) -> d
+    double access$300(com.theriddlebrothers.disruptor.ConfigureActivity) -> e
+com.theriddlebrothers.disruptor.ConfigureActivity$1 -> com.theriddlebrothers.disruptor.a:
+    com.theriddlebrothers.disruptor.ConfigureActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.theriddlebrothers.disruptor.ConfigureActivity$MonitorDecibelsTask -> com.theriddlebrothers.disruptor.b:
+    com.theriddlebrothers.disruptor.ConfigureActivity this$0 -> a
+    void run() -> run
+com.theriddlebrothers.disruptor.DefaultActivity -> com.theriddlebrothers.disruptor.c:
+    boolean onCreateOptionsMenu(android.view.Menu) -> onCreateOptionsMenu
+    boolean onOptionsItemSelected(android.view.MenuItem) -> onOptionsItemSelected
+    android.app.AlertDialog createAboutDialog() -> a
+com.theriddlebrothers.disruptor.DefaultActivity$1 -> com.theriddlebrothers.disruptor.d:
+    com.theriddlebrothers.disruptor.DefaultActivity this$0 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.theriddlebrothers.disruptor.DefaultActivity$2 -> com.theriddlebrothers.disruptor.e:
+    com.theriddlebrothers.disruptor.DefaultActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.theriddlebrothers.disruptor.SoundMeter -> com.theriddlebrothers.disruptor.f:
+    android.media.MediaRecorder mRecorder -> a
+    double mEMA -> b
+    void start() -> a
+    void stop() -> b
+    double getAmplitude() -> c
+com.theriddlebrothers.disruptor.SoundPlayerActivity -> com.theriddlebrothers.disruptor.SoundPlayerActivity:
+    android.media.MediaPlayer mPlayer -> a
+    boolean isPlaying -> b
+    boolean isContinuous -> c
+    java.lang.String TAG -> d
+    com.theriddlebrothers.disruptor.SoundMeter meter -> e
+    double DEFAULT_METER_THRESHOLD -> f
+    int METER_MULTIPLIER -> g
+    double currentMeterThreshold -> h
+    void onCreate(android.os.Bundle) -> onCreate
+    double getThreshold(int) -> a
+    void toggleSound() -> a
+    void playSound() -> b
+    void stopSound() -> c
+    double access$100(com.theriddlebrothers.disruptor.SoundPlayerActivity,int) -> a
+    double access$202(com.theriddlebrothers.disruptor.SoundPlayerActivity,double) -> a
+    boolean access$300(com.theriddlebrothers.disruptor.SoundPlayerActivity) -> a
+    com.theriddlebrothers.disruptor.SoundMeter access$400(com.theriddlebrothers.disruptor.SoundPlayerActivity) -> b
+    double access$200(com.theriddlebrothers.disruptor.SoundPlayerActivity) -> c
+    boolean access$500(com.theriddlebrothers.disruptor.SoundPlayerActivity) -> d
+com.theriddlebrothers.disruptor.SoundPlayerActivity$1 -> com.theriddlebrothers.disruptor.g:
+    com.theriddlebrothers.disruptor.SoundPlayerActivity this$0 -> a
+    boolean onTouch(android.view.View,android.view.MotionEvent) -> onTouch
+com.theriddlebrothers.disruptor.SoundPlayerActivity$2 -> com.theriddlebrothers.disruptor.h:
+    com.theriddlebrothers.disruptor.SoundPlayerActivity this$0 -> a
+    void onProgressChanged(android.widget.SeekBar,int,boolean) -> onProgressChanged
+    void onStartTrackingTouch(android.widget.SeekBar) -> onStartTrackingTouch
+    void onStopTrackingTouch(android.widget.SeekBar) -> onStopTrackingTouch
+com.theriddlebrothers.disruptor.SoundPlayerActivity$MonitorDecibelsTask -> com.theriddlebrothers.disruptor.i:
+    com.theriddlebrothers.disruptor.SoundPlayerActivity this$0 -> a
+    void run() -> run
+com.theriddlebrothers.disruptor.SplashActivity -> com.theriddlebrothers.disruptor.SplashActivity:
+    void onCreate(android.os.Bundle) -> onCreate
+com.theriddlebrothers.disruptor.SplashActivity$1 -> com.theriddlebrothers.disruptor.j:
+    com.theriddlebrothers.disruptor.SplashActivity this$0 -> a
+    void run() -> run

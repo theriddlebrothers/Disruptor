@@ -20,10 +20,10 @@
 
     <!-- Credits -->
     <string name="credits">
-        "Created by\nJoshua Riddle"
+        "Created by\nThe Riddle Brothers"
     </string>
-    <string name="copy">"Copyright \u00a9 2012 Joshua Riddle"</string>
-    <string name="url">http://www.joshuariddle.com</string>
+    <string name="copy">"Copyright \u00a9 2012 The Riddle Brothers"</string>
+    <string name="url">http://www.theriddlebrothers.com</string>
 
 
 </resources>

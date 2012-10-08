@@ -1,0 +1,48 @@
+com.theriddlebrothers.disruptor.ConfigureActivity
+com.theriddlebrothers.disruptor.ConfigureActivity: ConfigureActivity()
+com.theriddlebrothers.disruptor.DefaultActivity: DefaultActivity()
+com.theriddlebrothers.disruptor.R$color: int primaryButton
+com.theriddlebrothers.disruptor.R$color: int primaryButtonActive
+com.theriddlebrothers.disruptor.R$drawable: int button
+com.theriddlebrothers.disruptor.R$drawable: int button_disabled
+com.theriddlebrothers.disruptor.R$drawable: int button_enabled
+com.theriddlebrothers.disruptor.R$drawable: int button_focused
+com.theriddlebrothers.disruptor.R$drawable: int button_pressed
+com.theriddlebrothers.disruptor.R$drawable: int ic_action_search
+com.theriddlebrothers.disruptor.R$drawable: int ic_launcher
+com.theriddlebrothers.disruptor.R$drawable: int icon
+com.theriddlebrothers.disruptor.R$id: int aboutMenuItem
+com.theriddlebrothers.disruptor.R$id: int configureStartLayout
+com.theriddlebrothers.disruptor.R$id: int exitMenuItem
+com.theriddlebrothers.disruptor.R$id: int playButton
+com.theriddlebrothers.disruptor.R$id: int progressBar
+com.theriddlebrothers.disruptor.R$id: int splashIcon
+com.theriddlebrothers.disruptor.R$id: int startButton
+com.theriddlebrothers.disruptor.R$id: int threshold
+com.theriddlebrothers.disruptor.R$id: int thresholdValue
+com.theriddlebrothers.disruptor.R$id: int thresholdWrapper
+com.theriddlebrothers.disruptor.R$id: int visitWebsite
+com.theriddlebrothers.disruptor.R$layout: int activity_configuration
+com.theriddlebrothers.disruptor.R$layout: int activity_soundplayer
+com.theriddlebrothers.disruptor.R$layout: int activity_splash
+com.theriddlebrothers.disruptor.R$layout: int dialog_about
+com.theriddlebrothers.disruptor.R$menu: int activity_main
+com.theriddlebrothers.disruptor.R$raw: int annoy
+com.theriddlebrothers.disruptor.R$string: int about
+com.theriddlebrothers.disruptor.R$string: int app_name
+com.theriddlebrothers.disruptor.R$string: int continuous_play
+com.theriddlebrothers.disruptor.R$string: int copy
+com.theriddlebrothers.disruptor.R$string: int credits
+com.theriddlebrothers.disruptor.R$string: int exit
+com.theriddlebrothers.disruptor.R$string: int instructions
+com.theriddlebrothers.disruptor.R$string: int okay
+com.theriddlebrothers.disruptor.R$string: int sensitivity_label
+com.theriddlebrothers.disruptor.R$string: int title_activity_configure
+com.theriddlebrothers.disruptor.R$string: int title_activity_soundplayer
+com.theriddlebrothers.disruptor.R$string: int url
+com.theriddlebrothers.disruptor.R$style: int AppTheme
+com.theriddlebrothers.disruptor.R$style: int button
+com.theriddlebrothers.disruptor.SoundPlayerActivity
+com.theriddlebrothers.disruptor.SoundPlayerActivity: SoundPlayerActivity()
+com.theriddlebrothers.disruptor.SplashActivity
+com.theriddlebrothers.disruptor.SplashActivity: SplashActivity()
