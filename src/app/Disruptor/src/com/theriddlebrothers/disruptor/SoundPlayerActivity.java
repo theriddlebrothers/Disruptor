@@ -56,17 +56,14 @@ public class SoundPlayerActivity extends DefaultActivity {
                 switch (event.getAction()) {
                     case MotionEvent.ACTION_DOWN: {
                         toggleSound();
-                        return true;
                     }
 
                     case MotionEvent.ACTION_UP: {
                         toggleSound();
-                        return true;
                     }
-
-                    default:
-                        return false;
                 }
+
+                return false;
             }
         });
 

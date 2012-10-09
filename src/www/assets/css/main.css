@@ -27,14 +27,6 @@ body {
     color:#efefef;
 }
 
-.navbar-inverse {
-    margin-bottom:20px;
-}
-.navbar .brand {
-    background: url(../img/icon.png) no-repeat left center;
-    padding:20px 8px 20px 50px;
-}
-
 blockquote {
   border-left-color:#333;
 }

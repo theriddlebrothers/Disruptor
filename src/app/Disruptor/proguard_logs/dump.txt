@@ -399,7 +399,7 @@ Methods (count = 13):
     Access flags: 0x1
       = public void b()
     Class member attributes (count = 1):
-    + Code attribute instructions (code length = 64, locals = 2, stack = 4):
+    + Code attribute instructions (code length = 68, locals = 2, stack = 4):
       [0] ldc #8
         + String [ConfigureActivity]
       [2] ldc #10
@@ -427,29 +427,32 @@ Methods (count = 13):
         + Fieldref [com/theriddlebrothers/disruptor/ConfigureActivity.f Ljava/util/Timer;]
       [33] invokevirtual #67
         + Methodref [java/util/Timer.cancel ()V]
-      [36] new #12
+      [36] aload_0 v0
+      [37] invokevirtual #51
+        + Methodref [com/theriddlebrothers/disruptor/ConfigureActivity.finish ()V]
+      [40] new #12
         + Class [android/content/Intent]
-      [39] dup
-      [40] aload_0 v0
-      [41] ldc #21
+      [43] dup
+      [44] aload_0 v0
+      [45] ldc #21
         + Class [com/theriddlebrothers/disruptor/SoundPlayerActivity]
-      [43] invokespecial #38
+      [47] invokespecial #38
         + Methodref [android/content/Intent.<init> (Landroid/content/Context;Ljava/lang/Class;)V]
-      [46] astore_1 v1
-      [47] aload_1 v1
-      [48] ldc #11
+      [50] astore_1 v1
+      [51] aload_1 v1
+      [52] ldc #11
         + String [defaultThreshold]
-      [50] aload_0 v0
-      [51] getfield #37
+      [54] aload_0 v0
+      [55] getfield #37
         + Fieldref [com/theriddlebrothers/disruptor/ConfigureActivity.h D]
-      [54] invokevirtual #39
+      [58] invokevirtual #39
         + Methodref [android/content/Intent.putExtra (Ljava/lang/String;D)Landroid/content/Intent;]
-      [57] pop
-      [58] aload_0 v0
-      [59] aload_1 v1
-      [60] invokevirtual #55
+      [61] pop
+      [62] aload_0 v0
+      [63] aload_1 v1
+      [64] invokevirtual #55
         + Methodref [com/theriddlebrothers/disruptor/ConfigureActivity.startActivity (Landroid/content/Intent;)V]
-      [63] return
+      [67] return
       Code attribute exceptions (count = 0):
       Code attribute attributes (attribute count = 0):
   + Method:       onCreateOptionsMenu(Landroid/view/Menu;)Z
@@ -2201,36 +2204,32 @@ Methods (count = 2):
     Access flags: 0x1
       = public boolean onTouch(android.view.View,android.view.MotionEvent)
     Class member attributes (count = 1):
-    + Code attribute instructions (code length = 52, locals = 3, stack = 1):
+    + Code attribute instructions (code length = 48, locals = 3, stack = 1):
       [0] aload_2 v2
       [1] invokevirtual #7
         + Methodref [android/view/MotionEvent.getAction ()I]
-      [4] lookupswitch (2 offsets, default=46) (target=50)
+      [4] lookupswitch (2 offsets, default=42) (target=46)
         0: offset = 28, target = 32
-        1: offset = 37, target = 41
-        default: offset = 46, target = 50
+        1: offset = 35, target = 39
+        default: offset = 42, target = 46
       [32] aload_0 v0
       [33] getfield #6
         + Fieldref [com/theriddlebrothers/disruptor/g.a Lcom/theriddlebrothers/disruptor/SoundPlayerActivity;]
       [36] invokevirtual #8
         + Methodref [com/theriddlebrothers/disruptor/SoundPlayerActivity.a ()V]
-      [39] iconst_1
-      [40] ireturn
-      [41] aload_0 v0
-      [42] getfield #6
+      [39] aload_0 v0
+      [40] getfield #6
         + Fieldref [com/theriddlebrothers/disruptor/g.a Lcom/theriddlebrothers/disruptor/SoundPlayerActivity;]
-      [45] invokevirtual #8
+      [43] invokevirtual #8
         + Methodref [com/theriddlebrothers/disruptor/SoundPlayerActivity.a ()V]
-      [48] iconst_1
-      [49] ireturn
-      [50] iconst_0
-      [51] ireturn
+      [46] iconst_0
+      [47] ireturn
       Code attribute exceptions (count = 0):
       Code attribute attributes (attribute count = 1):
       + Stack map table attribute (count = 3):
         - [32] Var: ..., Stack: (empty)
-        - [41] Var: ..., Stack: (empty)
-        - [50] Var: ..., Stack: (empty)
+        - [39] Var: ..., Stack: (empty)
+        - [46] Var: ..., Stack: (empty)
 
 Class file attributes (count = 0):
 
