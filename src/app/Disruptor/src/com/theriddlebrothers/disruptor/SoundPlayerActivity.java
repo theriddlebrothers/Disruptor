@@ -100,6 +100,27 @@ public class SoundPlayerActivity extends DefaultActivity {
         });
     }
 
+    // Activity lost focus
+    public void onStop() {
+        super.onPause();
+        stopSound();
+    }
+
+    // Activity lost focus
+    public void onPause() {
+        super.onPause();
+        stopSound();
+    }
+
+    public void onDestroy() {
+        super.onDestroy();
+        meter.stop();
+        mPlayer.stop();
+        mPlayer.release();
+        meter = null;
+        mPlayer = null;
+    }
+
     private double getThreshold(int rounded) {
         return rounded / METER_MULTIPLIER;
     }

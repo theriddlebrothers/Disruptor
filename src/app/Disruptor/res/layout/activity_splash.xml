@@ -19,7 +19,7 @@
         <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:textSize="44sp"
+                android:textSize="38sp"
                 android:textColor="#fcb215"
                 android:textStyle="bold"
                 android:gravity="center"
