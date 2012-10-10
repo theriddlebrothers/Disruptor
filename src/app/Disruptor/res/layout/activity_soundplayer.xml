@@ -41,6 +41,17 @@
 	        android:text="100" />
 	    
 	    </LinearLayout>
+
+
+        <TextView
+                android:id="@+id/thresholdValue"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginRight="0dp"
+                android:layout_marginTop="12dp"
+                android:textSize="14sp"
+                android:text="@string/sensitivity_help" />
+
     </LinearLayout>
 
     <Button

@@ -17,6 +17,9 @@
         Disruptor will play for a few seconds to determine the volume of the room while playing.
         Do this in a quiet environment before anyone is blabbling away.
     </string>
+    <string name="sensitivity_help">
+        Use the Sensitivity meter above to fine-tune when Disruptor plays sound. A lower sensitivity means softer noises will set it off.
+    </string>
 
     <!-- Credits -->
     <string name="credits">

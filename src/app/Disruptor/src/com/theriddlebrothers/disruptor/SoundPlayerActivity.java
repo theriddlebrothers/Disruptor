@@ -17,6 +17,7 @@ import android.widget.SeekBar;
 import android.widget.TextView;
 
 public class SoundPlayerActivity extends DefaultActivity {
+
     private MediaPlayer mPlayer;
     private boolean isPlaying = false;
     private boolean isContinuous = false;
@@ -25,6 +26,7 @@ public class SoundPlayerActivity extends DefaultActivity {
     private final double DEFAULT_METER_THRESHOLD = 20;
     private final int METER_MULTIPLIER = 10;
     private double currentMeterThreshold;
+    private Timer timer;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -40,13 +42,7 @@ public class SoundPlayerActivity extends DefaultActivity {
 
         // Set the hardware buttons to control the music
         this.setVolumeControlStream(AudioManager.STREAM_MUSIC);
-        mPlayer = MediaPlayer.create(SoundPlayerActivity.this, R.raw.annoy);
-        mPlayer.setLooping(true);
-
-        // Monitor volume
-        meter = new SoundMeter();
-        meter.start();
-        new Timer().scheduleAtFixedRate(new MonitorDecibelsTask(), 100, 100);
+        initAudioIO();
 
         // Play sound while holding button down
         final Button button = (Button) findViewById(R.id.playButton);
@@ -54,13 +50,12 @@ public class SoundPlayerActivity extends DefaultActivity {
             public boolean onTouch(View v, MotionEvent event) {
 
                 switch (event.getAction()) {
-                    case MotionEvent.ACTION_DOWN: {
+                    case MotionEvent.ACTION_DOWN:
                         toggleSound();
-                    }
-
-                    case MotionEvent.ACTION_UP: {
+                        break;
+                    case MotionEvent.ACTION_UP:
                         toggleSound();
-                    }
+                        break;
                 }
 
                 return false;
@@ -100,25 +95,47 @@ public class SoundPlayerActivity extends DefaultActivity {
         });
     }
 
-    // Activity lost focus
-    public void onStop() {
-        super.onPause();
-        stopSound();
+    private void initAudioIO() {
+        mPlayer = MediaPlayer.create(SoundPlayerActivity.this, R.raw.annoy);
+        mPlayer.setLooping(true);
+
+        // Monitor volume
+        meter = new SoundMeter();
+        meter.start();
+        timer = new Timer();
+        timer.scheduleAtFixedRate(new MonitorDecibelsTask(), 50, 50);
+    }
+
+    public void onRestart() {
+        super.onRestart();
+        initAudioIO();
     }
 
     // Activity lost focus
     public void onPause() {
         super.onPause();
-        stopSound();
+        shutDown();
     }
 
-    public void onDestroy() {
-        super.onDestroy();
-        meter.stop();
-        mPlayer.stop();
-        mPlayer.release();
-        meter = null;
-        mPlayer = null;
+    private void shutDown() {
+        try {
+            if (timer != null) {
+                timer.cancel();
+                timer = null;
+            }
+            if (meter != null) {
+                meter.stop();
+                meter = null;
+            }
+            if (mPlayer != null) {
+                stopSound();
+                mPlayer.stop();
+                mPlayer.release();
+                mPlayer = null;
+            }
+        } catch(Exception ex) {
+
+        }
     }
 
     private double getThreshold(int rounded) {
@@ -131,6 +148,10 @@ public class SoundPlayerActivity extends DefaultActivity {
 
             // Don't start/stop if already continuously playing sound
             if (isContinuous) return;
+
+            // meter can become null value if application shuts down
+            // prior to the timer.
+            if (meter == null) return;
 
             double amplitude = meter.getAmplitude();
 
